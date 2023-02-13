@@ -26,7 +26,7 @@
       </p>
       <div class="flex">
         <a
-          class="text-gray-800 bg-white text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
+          class="text-gray-800 bg-white border-almostwhite border-gray-300 text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
           href="/work"
         >
           Showcase</a
@@ -49,8 +49,8 @@
 
 <MarqueeTextWidget duration={20} repeat={3} paused={pauseOnHover}>
   <div class="flex mb-7 mt-3">
-    <div
-      class="flex border-4  bg-white rounded-2xl drop-shadow-xl p-5 mx-3 hover:hover:scale-105  hover:drop-shadow-xl transition ease-in-out"
+    <div 
+      class="flex border-4 border-almostwhite bg-black rounded-2xl drop-shadow-xl p-5 mx-3 hover:hover:scale-105  hover:drop-shadow-xl transition ease-in-out"
     >
       <span class="ml-3 mr-3 cursor-default">
         <h2 class="flex justify-between text-2xl font-semibold">
@@ -61,7 +61,7 @@
     </div>
 
     <div
-      class="flex border-4  bg-white rounded-2xl drop-shadow-xl p-5 mx-3 hover:hover:scale-105  hover:drop-shadow-xl transition ease-in-out"
+      class="flex border-4 border-almostwhite bg-white rounded-2xl drop-shadow-xl p-5 mx-3 hover:hover:scale-105  hover:drop-shadow-xl transition ease-in-out"
     >
       <span class="ml-3 mr-3 cursor-default">
         <h2 class="flex justify-between text-2xl font-semibold">
@@ -72,7 +72,7 @@
     </div>
 
     <div
-      class="flex border-4  bg-white rounded-2xl drop-shadow-xl p-5 mx-3 hover:hover:scale-105  hover:drop-shadow-xl transition ease-in-out"
+      class="flex border-4 border-almostwhite bg-white rounded-2xl drop-shadow-xl p-5 mx-3 hover:hover:scale-105  hover:drop-shadow-xl transition ease-in-out"
     >
       <span class="ml-3 mr-3 cursor-default">
         <h2 class="flex justify-between text-2xl font-semibold">

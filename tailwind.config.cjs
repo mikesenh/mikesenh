@@ -15,7 +15,7 @@ module.exports = {
       'macbook': '#F6F8FA',
       'almostblack' : '#1D1D1F',
       'greyblack' : '#6e6e73',
-      'almostwhite' : '#e4e6ea',
+      'almostwhite' : '#e5e7eb',
     },
   },
   plugins: [],

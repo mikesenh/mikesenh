@@ -64,11 +64,11 @@
 			: 'hidden'}"
 		>
 		<!-- <a class="text-gray-800 text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-applegreen hover:-translate-y-1 hover:drop-shadow-md transition" href="/home">Blog</a> -->
-		  <a class="text-gray-800 bg-white text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition" href="/work">Work</a>
+		  <a class="text-gray-800 border-almostwhite bg-white text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition" href="/work">Work</a>
 		  
 		  <!-- <a class="text-gray-800 hover:text-blue-400" href="/blog">Blogs</a>
 		  <a class="text-gray-800 hover:text-blue-400" href="/contact">Contact US</a> -->
-		  <a class="text-gray-800 bg-white text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-appleyellow hover:-translate-y-1 hover:drop-shadow-md transition" href="/about">About Me</a>
+		  <a class="text-gray-800 border-almostwhite bg-white text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-appleyellow hover:-translate-y-1 hover:drop-shadow-md transition" href="/about">About Me</a>
 		</div>
 	  </nav>
 	</div>
@@ -84,7 +84,7 @@
 
 <div class="bg-macbook">
 	
-<div class="flex justify-center border-b-4 border-greyblack ">
+<div class="flex justify-center border-almostwhiteborder-b-4 border-greyblack ">
 	<div class="">
 	<a
 	class="text-xl font-bold text-gray-800 md:text-2xl hover:text-blue-400"
