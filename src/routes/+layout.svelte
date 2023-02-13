@@ -28,8 +28,8 @@
   <link rel="icon" type="image/svg" href="/base/mikesenh_logo-dark.webp" />
 </svelte:head>
 
-<div class="bg-macbook">
-	<!-- svelte code: class:bg-macbook={$page.url.pathname === '/about'}-->
+<div class="">
+	
 	<div>
 	  <nav
 		class=" container px-6 py-8 mx-auto md:flex md:justify-between md:items-center "
@@ -76,13 +76,13 @@
 
 
 
-<div class="scroll-smooth bg-macbook">
+<div class="scroll-smooth k">
 	<!-- svelte code: class:bg-macbook={$page.url.pathname === '/about'}-->
 
 
 <slot />
 
-<div class="bg-macbook">
+<div class="">
 	
 <div class="flex justify-center border-almostwhiteborder-b-4 border-greyblack ">
 	<div class="">
