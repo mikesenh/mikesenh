@@ -58,18 +58,18 @@ $: if (innerWidth <= 768) {
 				</span>
 				<button class="transition scale-110 hover:scale-125">
 					<img
-						class="transition-color border-greyblack border-[3px] rounded-full p-1 "src="/upward-arrow.svg"alt=""/></button
-				>
+						class="transition-color border-greyblack border-[3px] rounded-full p-1 "src="/base/icons/upward-arrow.svg"alt=""/></button
+				>test-img.png
 				
 			</div>
 			<p class="text-base border-t-[3px] py-3 mt-3 border-appleblue ">Donec rutrum congue leo eget malesuada.</p>
 			<a href="/">
 				<div class="img-click-container transition  hover:scale-100">
-					<img class="rounded-2xl w-full img-click-image" src="/test-img.png" alt="" />
+					<img class="rounded-2xl w-full img-click-image" src="/base/air.png" alt="" />
 					<div class="img-overlay">
 						<div class="img-click-content mt-2">
 							<div class="flex justify-center mb-3">
-								<img class="" src="/eye-icon.svg" alt="" />
+								<img class="" src="/base/icons/eye-icon.svg" alt="" />
 							</div>
 						</div>
 					</div>
@@ -86,18 +86,18 @@ $: if (innerWidth <= 768) {
 				</span>
 				<button class="transition scale-110 hover:scale-125">
 					<img
-						class="transition-color border-greyblack border-[3px] rounded-full p-1 "src="/upward-arrow.svg"alt=""/></button
+						class="transition-color border-greyblack border-[3px] rounded-full p-1 "src="/base/icons/upward-arrow.svg"alt=""/></button
 				>
 				
 			</div>
 			<p class="text-base border-t-[3px] py-3 mt-3 border-appleblue ">Donec rutrum congue leo eget malesuada.</p>
 			<a href="/">
 				<div class="img-click-container transition  hover:scale-100">
-					<img class="rounded-2xl w-full img-click-image" src="/test-img.png" alt="" />
+					<img class="rounded-2xl w-full img-click-image" src="/base/air.png" alt="" />
 					<div class="img-overlay">
 						<div class="img-click-content mt-2">
 							<div class="flex justify-center mb-3">
-								<img class="" src="/eye-icon.svg" alt="" />
+								<img class="" src="/base/icons/eye-icon.svg" alt="" />
 							</div>
 						</div>
 					</div>
@@ -114,18 +114,18 @@ $: if (innerWidth <= 768) {
 			</span>
 			<button class="transition scale-110 hover:scale-125">
 				<img
-					class="transition-color border-greyblack border-[3px] rounded-full p-1 "src="/upward-arrow.svg"alt=""/></button
+					class="transition-color border-greyblack border-[3px] rounded-full p-1 "src="/base/icons/upward-arrow.svg"alt=""/></button
 			>
 			
 		</div>
 		<p class="text-base border-t-[3px] py-3 mt-3 border-appleblue ">Donec rutrum congue leo eget malesuada.</p>
 		<a href="/">
 			<div class="img-click-container transition  hover:scale-100">
-				<img class="rounded-2xl w-full img-click-image" src="/test-img.png" alt="" />
+				<img class="rounded-2xl w-full img-click-image" src="/base/air.png" alt="" />
 				<div class="img-overlay">
 					<div class="img-click-content mt-2">
 						<div class="flex justify-center mb-3">
-							<img class="" src="/eye-icon.svg" alt="" />
+							<img class="" src="/base/icons/eye-icon.svg" alt="" />
 						</div>
 					</div>
 				</div>
