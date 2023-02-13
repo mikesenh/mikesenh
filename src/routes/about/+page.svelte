@@ -66,7 +66,7 @@
 <MarqueeTextWidget duration={20} repeat={3} paused={pauseOnHover}>
 	<div class="flex mb-7 mt-3">
 		<div
-			class="flex border-4  bg-white border-almostwhite active:hover:scale-95 rounded-2xl drop-shadow-xl p-5 mx-3 hover:hover:scale-105  hover:drop-shadow-xl transition ease-in-out"
+			class="flex border-4 border-almostwhite bg-white rounded-2xl p-5 mx-3 transition ease-in-out"
 		>
 			<span class="ml-3 mr-3 cursor-default">
 				<h2 class="flex justify-between text-2xl font-semibold">
@@ -77,7 +77,7 @@
 		</div>
 
 		<div
-			class="flex border-4  bg-white border-almostwhite active:hover:scale-95 rounded-2xl drop-shadow-xl p-5 mx-3 hover:hover:scale-105  hover:drop-shadow-xl transition ease-in-out"
+			class="flex border-4 border-almostwhite bg-white rounded-2xl p-5 mx-3 transition ease-in-out"
 		>
 			<span class="ml-3 mr-3 cursor-default">
 				<h2 class="flex justify-between text-2xl font-semibold">
@@ -88,7 +88,7 @@
 		</div>
 
 		<div
-			class="flex border-4  bg-white border-almostwhite active:hover:scale-95 rounded-2xl drop-shadow-xl p-5 mx-3 hover:hover:scale-105  hover:drop-shadow-xl transition ease-in-out"
+			class="flex border-4 border-almostwhite bg-white rounded-2xl p-5 mx-3 transition ease-in-out"
 		>
 			<span class="ml-3 mr-3 cursor-default">
 				<h2 class="flex justify-between text-2xl font-semibold">
@@ -112,7 +112,7 @@
 		<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
 			<div class="bg-white px-5 rounded-2xl shadow-xl border-y-4 border-applered p-5">
 				<div class="flex">
-					<img class="h-12" src="/aboutme/icon-combo-dev-des.svg" alt="" />
+					<img class="h-12" src="/base/icons/combo-dev-designer.webp" alt="" />
 					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Combo Dev Designer </span>
 				</div>
 				<p class="py-3 text-lg">
@@ -123,7 +123,7 @@
 
 			<div class="bg-white px-5 rounded-2xl shadow-xl border-y-4 border-appleblue p-5">
 				<div class="flex">
-					<img class="h-12" src="/aboutme/icon-life-long-learner.svg" alt="" />
+					<img class="h-12" src="/base/icons/growth-minset.webp" alt="" />
 					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Bit of a Brainiac</span>
 				</div>
 				<p class="py-3 text-lg">
@@ -134,7 +134,7 @@
 
 			<div class="bg-white px-5 rounded-2xl shadow-xl border-y-4 border-appleyellow p-5">
 				<div class="flex">
-					<img class="h-12" src="/aboutme/icon-happy-go-lucky.svg" alt="" />
+					<img class="h-12" src="/base/icons/happy-go-lucky.webp" alt="" />
 					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Happy Go Lucky </span>
 				</div>
 				<p class="py-3 text-lg">
@@ -145,7 +145,7 @@
 
 			<div class="bg-white px-5 rounded-2xl shadow-xl border-y-4 border-applegreen p-5">
 				<div class="flex">
-					<img class="h-12" src="/aboutme/icon-organized-time-management.svg" alt="" />
+					<img class="h-12" src="/base/icons/well-optimized.webp" alt="" />
 					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Oh-so Optimized</span>
 				</div>
 				<p class="py-3 text-lg">
@@ -160,7 +160,7 @@
 <MarqueeTextWidget duration={20} repeat={3} paused={pauseOnHover}>
 	<div class="flex mb-7 mt-3">
 		<div
-			class="flex border-4 border-almostwhite active:hover:scale-95 bg-white rounded-2xl drop-shadow-xl p-5 mx-3 hover:hover:scale-105  hover:drop-shadow-xl transition ease-in-out"
+			class="flex border-4 border-almostwhite bg-white rounded-2xl p-5 mx-3 transition ease-in-out"
 		>
 			<span class="ml-3 mr-3 cursor-default">
 				<h2 class="flex justify-between text-2xl font-semibold">
@@ -171,7 +171,7 @@
 		</div>
 
 		<div
-			class="flex border-4 border-almostwhite active:hover:scale-95 bg-white rounded-2xl drop-shadow-xl p-5 mx-3 hover:hover:scale-105  hover:drop-shadow-xl transition ease-in-out"
+			class="flex border-4 border-almostwhite bg-white rounded-2xl p-5 mx-3 transition ease-in-out"
 		>
 			<span class="ml-3 mr-3 cursor-default">
 				<h2 class="flex justify-between text-2xl font-semibold">
@@ -182,7 +182,7 @@
 		</div>
 
 		<div
-			class="flex border-4 border-almostwhite active:hover:scale-95 bg-white rounded-2xl drop-shadow-xl p-5 mx-3 hover:hover:scale-105  hover:drop-shadow-xl transition ease-in-out"
+			class="flex border-4 border-almostwhite bg-white rounded-2xl p-5 mx-3 transition ease-in-out"
 		>
 			<span class="ml-3 mr-3 cursor-default">
 				<h2 class="flex justify-between text-2xl font-semibold">
@@ -198,7 +198,7 @@
 	<h2 class="text-5xl font-semibold text-center">Résumé Summary</h2>
 	<p class="text-lg mb-10 text-center">Curriculum Vitae</p>
 	<div class="grid xl:grid-cols-3 grid-cols-1 gap-5">
-		<div class="bg-white border-almostwhite  p-10 rounded-2xl shadow-2xl border-4">
+		<div class="bg-white border-applegreen  p-10 rounded-2xl shadow-2xl border-4">
 			<div class="flex">
 				<img class="h-12" src="/base/icons/inquisitive-alumni.webp" alt="" />
 				<span class="self-center mr-3 font-semibold ml-3 text-2xl">General Education </span>
@@ -212,7 +212,7 @@
 		</span>	 User Experience (UX), User Interaction Theory (UI), Full Stack Development</p>
 		</div>
 
-		<div class="bg-white border-almostwhite  p-10 rounded-2xl shadow-2xl border-4">
+		<div class="bg-white border-appleyellow  p-10 rounded-2xl shadow-2xl border-4">
 			<div class="flex">
 				<img class="h-12" src="/base/icons/human-focus-design.webp" alt="" />
 				<span class="self-center mr-3 font-semibold ml-3 text-2xl">Ideal Design Tools</span>
@@ -229,7 +229,7 @@
 		
 			</div>
 
-		<div class="bg-white border-almostwhite  p-10 rounded-2xl shadow-2xl border-4">
+		<div class="bg-white border-appleblue  p-10 rounded-2xl shadow-2xl border-4">
 			<div class="flex">
 				<img class="h-12" src="/base/icons/computational-coder.webp" alt="" />
 				<span class="self-center mr-3 font-semibold ml-3 text-2xl">Preferable Development</span>
@@ -251,7 +251,7 @@
 	
 
 	<div class="flex justify-center mt-10">
-		<a class="text-gray-800 bg-white text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-applered hover:-translate-y-1 hover:drop-shadow-md transition" href="/about">Résumé Download</a>
+		<a class="text-gray-800 bg-white border-almostwhite text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-applered hover:-translate-y-1 hover:drop-shadow-md transition" href="/about">Résumé Download</a>
 		</div>
 </div>
 

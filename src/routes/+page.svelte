@@ -107,21 +107,19 @@
     <div class="place-self-center lg:mx-11 md:mx-5">
       <p class="text-base">Case Study</p>
       <h4 class="text-3xl my-2 font-semibold">Design Process</h4>
-      <p class="text-sm mb-5">
+      <p class="text-lg mb-5">
         Problem solving. At the end of this phase you’ll have a pixel perfect
         design for your app or website. During the transition from wireframes
         into the final design I create prototypes simulating final end results
         before development.
       </p>
       <span>
-        <div class="flex flex-col">
+        <div class="flex">
           <a
-            class="text-center text-gray-800 bg-white text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
-            href="/">View Case</a
+            class="text-center border-almostwhite text-gray-800 bg-white text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
+            href="/">View Case Study</a
           >
-          <a class="text-center hover:font-bold transition mt-2" href="/"
-            >Explore Works</a
-          >
+         
 
           <br />
           <br />
