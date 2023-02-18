@@ -11,7 +11,7 @@
       src="/base/move-monitor.webp"
       alt=""
     />
-    <div class="place-self-center sm:p-5 lg:p-10 xl:p-32">
+    <div class="place-self-center sm:p-5 lg:p-10 xl:p-32 p-5">
       <Typewriter mode="loopOnce" cursor={false} element="span">
         <h1 class="md:text-4xl text-3xl font-bold leading-10">
           UX/UI Designer, with a Affinity for Web Development

@@ -84,20 +84,21 @@
 
 <div class="">
 	
-<div class="flex justify-center border-almostwhiteborder-b-4 border-greyblack ">
+<div class="flex justify-center border-greyblack ">
 	<div class="">
 	<a
 	class="text-xl font-bold text-gray-800 md:text-2xl hover:text-blue-400"
 	href="/"
 	>
 	<span tooltip="Mikesenh" flow="right">
-		<img on:mouseover={handleMouseOver} on:mouseout={handleMouseOut} on:blur={onBlur} on:focus={onFocus}  class="mb-5 h-14 lg:h-24 hover:scale-105 transition" src={colour} alt="">
+		<img on:mouseover={handleMouseOver} on:mouseout={handleMouseOut} on:blur={onBlur} on:focus={onFocus}  class="mb-3
+		 h-14 lg:h-24 hover:scale-105 transition" src={colour} alt="">
 		
 		</span>
   </a>
 </div>
 </div>
-<div class="flex justify-center my-5">
+<div class="flex justify-center mx-5">
 	<div class="">
 	
   <p >All rights reserved. – Designed & Coded by Michael Tran © 2023</p>

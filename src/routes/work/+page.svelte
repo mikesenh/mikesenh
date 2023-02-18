@@ -59,7 +59,7 @@ $: if (innerWidth <= 768) {
 				<button class="transition scale-110 hover:scale-125">
 					<img
 						class="transition-color border-greyblack border-[3px] rounded-full p-1 "src="/base/icons/upward-arrow.svg"alt=""/></button
-				>test-img.png
+				>
 				
 			</div>
 			<p class="text-base border-t-[3px] py-3 mt-3 border-appleblue ">Donec rutrum congue leo eget malesuada.</p>
