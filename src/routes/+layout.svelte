@@ -25,7 +25,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <svelte:head>
-  <link rel="icon" type="image/svg" href="/base/mikesenh_logo-dark.webp" />
+  <link rel="icon" type="image/svg" href="/base/move-mikesenh_logo.webp" />
 </svelte:head>
 
 <div class="">
@@ -99,7 +99,7 @@
 </div>
 </div>
 <div class="flex justify-center mx-5">
-	<div class="">
+	<div class="mb-5">
 	
   <p >All rights reserved. – Designed & Coded by Michael Tran © 2023</p>
 </div>
