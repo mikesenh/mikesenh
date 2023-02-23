@@ -63,7 +63,7 @@
 </button>
 -->
 
-<MarqueeTextWidget duration={20} repeat={3} paused={pauseOnHover}>
+<MarqueeTextWidget duration={20} repeat={5} paused={pauseOnHover}>
 	<div class="flex mb-7 mt-3">
 		<div
 			class="flex border-4 bg-white select-none border-almostwhite rounded-2xl p-5 mx-3 hover:hover:scale-105 active:hover:scale-95 hover:drop-shadow-lg transition ease-in-out"
@@ -157,7 +157,7 @@
 	</div>
 </div>
 
-<MarqueeTextWidget duration={20} repeat={3} paused={pauseOnHover}>
+<MarqueeTextWidget duration={20} repeat={5} paused={pauseOnHover}>
 	<div class="flex mb-7 mt-3">
 		<div
 			class="flex border-4 bg-white select-none border-almostwhite rounded-2xl p-5 mx-3 hover:hover:scale-105 active:hover:scale-95 hover:drop-shadow-lg transition ease-in-out"
@@ -194,7 +194,7 @@
 	</div>
 </MarqueeTextWidget>
 
-<div class="mx-5 md:mx-36 lg:mx-16 xl:mx-52 2xl:mx-48 my-12 pb-6 cursor-default">
+<div class="mx-5 md:mx-36 lg:mx-16 xl:mx-32 2xl:mx-48 my-12 pb-6 cursor-default">
 	<h2 class="text-5xl font-semibold text-center">Résumé Summary</h2>
 	<p class="text-lg mb-10 text-center">Curriculum Vitae</p>
 	<div class="grid xl:grid-cols-3 grid-cols-1 gap-5">

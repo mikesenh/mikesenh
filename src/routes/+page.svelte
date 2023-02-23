@@ -47,7 +47,7 @@
   </div>
 </div>
 
-<MarqueeTextWidget duration={20} repeat={3} paused={pauseOnHover}>
+<MarqueeTextWidget duration={20} repeat={5} paused={pauseOnHover}>
   <div class="flex mb-7 mt-3">
     <div 
       class="flex border-4 border-almostwhite select-none bg-white rounded-2xl  p-5 mx-3 hover:hover:scale-105 active:hover:scale-95  hover:drop-shadow-lg transition ease-in-out"

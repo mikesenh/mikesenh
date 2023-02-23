@@ -25,7 +25,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <svelte:head>
-  <link rel="icon" type="image/svg" href="/base/move-mikesenh_logo.webp" />
+  <link rel="icon" type="image/svg" href="/base/mikesenh_logo-dark.webp" />
 </svelte:head>
 
 <div class="">
