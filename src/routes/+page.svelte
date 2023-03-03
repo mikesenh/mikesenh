@@ -1,88 +1,113 @@
 <script>
   import Typewriter from "svelte-typewriter";
   import MarqueeTextWidget from "svelte-marquee-text-widget";
-  let pauseOnHover = false;
+  let touchMarquee = false;
+  function marqueePause() {
+    touchMarquee = true;
+  }
+
+  let powerUp = false;
+
+  let colour = '/base/machines.webp';
+	function handleMouseOver(e) {
+		colour = '/base/move-machines.webp';
+	}
+	function handleMouseOut(e) {
+		colour = '/base/machines.webp';
+	}
+	const onFocus =()=>isFocused=true;
+	const onBlur =()=>isFocused=false;
 </script>
 
-<div class="mx-auto container">
-  <div class="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 pb-10">
-    <img
-      class="place-self-center pb-10 hover:rotate-6 transition active:-rotate-6 lg:hidden"
-      src="/base/move-monitor.webp"
-      alt=""
-    />
-    <div class="place-self-center sm:p-5 lg:p-10 xl:p-32 p-5">
+<!-- bg-[url('/base/bg-transblue.png')] -->
+<div class="bg-contain pb-10 ">
+<div class="mx-auto container ">
+  <div class="flex justify-center">
+  <!-- <div class="flex items-center mb-4">
+    <input bind:checked={powerUp} id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+    <label for="default-checkbox" class="ml-2 text-xl font-medium text-gray-900 dark:text-gray-300">Power Up!</label>
+</div> -->
+</div>
+  <div class="flex justify-center">
+  
+    <img class="px-5 my-5 sm:h-48 md:h-64 hover:scale-105 transition active:scale-95 select-none" src="/base/move-machines.webp" alt="3 retro machines in a svg vector format">
+    
+  </div>
+  
+  
+    <h1 class="text-center md:text-4xl text-3xl font-bold select-none">‎ ‎
       <Typewriter mode="loopOnce" cursor={false} element="span">
-        <h1 class="md:text-4xl text-3xl font-bold leading-10">
-          UX/UI Designer, with a Affinity for Web Development
-        </h1>
-        <h1 class="md:text-4xl text-3xl font-bold leading-10">
-          Front End Developer, with a Spark of UX/UI Design
-        </h1>
+        <span>
+        UX/UI Designer, with a Affinity for Web Development
+      </span>
+      <span>
+        Front End Developer, with a Spark of UX/UI Design
+      </span>
       </Typewriter>
-      <p class="text-xl my-5">
-        ...and I’m passionate about developing & designing digital products
-        package with an amazing experiences.
-      </p>
-      <div class="flex">
-        <a
-          class="text-gray-800 bg-white border-almostwhite border-gray-300 text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
+    </h1>
+
+    <p class="text-center text-xl my-5 select-none">‎ ‎
+  <Typewriter mode="loopOnce" cursor={false} element="span">
+    <span>
+    ...and I’m passionate about developing & designing digital products
+    package with an amazing experiences.
+  </span>
+</Typewriter>
+</p>
+  <div class="flex justify-center">
+  <a
+          class="text-gray-800 bg-white border-myblue border-gray-300 text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
           href="/work"
         >
-          Showcase</a
+        Ideas I've brought to life</a
         >
-        <img
-          class="ml-2 fa-arrow-left"
-          src="/base/icons/arrow-point-left.svg"
-          alt="arrow pointing to my work"
-        />
       </div>
-    </div>
-
-    <img
-      class="place-self-center pb-10 hidden lg:block hover:rotate-6 transition active:-rotate-6 mr-5"
-      src="/base/move-monitor.webp"
-      alt=""
-    />
-  </div>
+</div>
 </div>
 
-<MarqueeTextWidget duration={20} repeat={5} paused={pauseOnHover}>
-  <div class="flex mb-7 mt-3">
+<!-- bg-[url('/base/bg-transblue-flip.png')] -->
+<div class="">
+
+<MarqueeTextWidget duration={20} repeat={5} paused={touchMarquee}>
+  <div class="flex mb-7 mt-3" on:mouseover={()=>{touchMarquee = true}} on:mouseout={()=>{touchMarquee = false}} on:focus={onFocus} on:blur={onBlur}>
     <div 
-      class="flex border-4 border-almostwhite select-none bg-white rounded-2xl  p-5 mx-3 hover:hover:scale-105 active:hover:scale-95  hover:drop-shadow-lg transition ease-in-out"
+      class="w-96 flex border-4 border-almostwhite select-none bg-white rounded-2xl  p-5 mx-3 hover:hover:scale-105 active:hover:scale-95  hover:drop-shadow-lg transition ease-in-out"
     >
       <span class="ml-3 mr-3 cursor-default">
         <h2 class="flex justify-between text-2xl font-semibold">
-          <span class="self-center mr-3"> human-focus-design </span>
-          <img class="h-12" src="/base/icons/human-focus-design.webp" alt="" />
+          <span class="self-center mr-3 mb-2"> UX/UI Designed </span>
+          <img class="h-12 mb-2" src="/base/icons/human-focus-design.webp" alt="" />
         </h2>
+        <p class="mb-2">If you have a vision, I can bring it to life by prototype every idea down to the looks, feels and functions!</p>
       </span>
     </div>
 
     <div
-      class="flex border-4 border-almostwhite select-none bg-white rounded-2xl p-5 mx-3 hover:hover:scale-105 active:hover:scale-95 hover:drop-shadow-lg transition ease-in-out"
+      class="w-96 flex border-4 border-almostwhite select-none bg-white rounded-2xl p-5 mx-3 hover:hover:scale-105 active:hover:scale-95 hover:drop-shadow-lg transition ease-in-out"
     >
       <span class="ml-3 mr-3 cursor-default">
         <h2 class="flex justify-between text-2xl font-semibold">
-          <span class="self-center mr-3"> combo-dev-designer </span>
-          <img class="h-12" src="/base/icons/combo-dev-designer.webp" alt="" />
+          <span class="self-center mr-3 mb-2"> Content Maintenance </span>
+          <img class="h-12 mb-2" src="/base/icons/combo-dev-designer.webp" alt="" />
         </h2>
+        <p class="mb-2">If you already have a website rest assure I can keep it in good shape, you can count on me to keep everything updated!</p>
       </span>
     </div>
 
     <div
-      class="flex border-4 bg-white select-none border-almostwhite rounded-2xl p-5 mx-3 hover:hover:scale-105 active:hover:scale-95 hover:drop-shadow-lg transition ease-in-out"
+      class="w-96 flex border-4 bg-white select-none border-almostwhite rounded-2xl p-5 mx-3 hover:hover:scale-105 active:hover:scale-95 hover:drop-shadow-lg transition ease-in-out"
     >
       <span class="ml-3 mr-3 cursor-default">
         <h2 class="flex justify-between text-2xl font-semibold">
-          <span class="self-center mr-3"> problem-solver </span>
-          <img class="h-12" src="/base/icons/computational-coder.webp" alt="" />
+          <span class="self-center mr-3 mb-2"> Web Developement </span>
+          <img class="h-12 mb-3 mb-2" src="/base/icons/computational-coder.webp" alt="" />
         </h2>
+        <p class="mb-2">If you're in the market for a handcrafted websites, with features that go beyond a typical website, I might be you're guy!</p>
       </span>
     </div>
   </div>
 </MarqueeTextWidget>
+
 
 <div class="container mx-auto my-12">
   <h3 class="lg:mx-10 mx-5 text-3xl font-bold mb-5 ">Recent Work</h3>
@@ -129,6 +154,7 @@
   </div>
 </div>
 
+</div>
 <style>
   .fa-arrow-left {
     -webkit-animation: bounceLeft 2s infinite;

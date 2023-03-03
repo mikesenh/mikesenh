@@ -28,6 +28,7 @@
   <link rel="icon" type="image/svg" href="/base/mikesenh_logo-dark.webp" />
 </svelte:head>
 
+<div class="bg-macbook">
 <div class="">
 	
 	<div>
@@ -76,7 +77,7 @@
 
 
 
-<div class="scroll-smooth k">
+<div class="scroll-smooth ">
 	<!-- svelte code: class:bg-macbook={$page.url.pathname === '/about'}-->
 
 
@@ -108,7 +109,7 @@
 
 </div>
 </div>
-
+</div>
 
 
 
