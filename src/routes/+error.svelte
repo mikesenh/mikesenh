@@ -14,7 +14,7 @@
 
   function changeFact() {
     let randomNumber = Math.floor(Math.random() * 15) + 1;
-    console.log(randomNumber)
+    
     switch (randomNumber) {
       case 1: fact = "<b>Cunningham's Law</b> - the best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer.";
       break;

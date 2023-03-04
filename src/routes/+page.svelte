@@ -1,10 +1,34 @@
 <script>
   import Typewriter from "svelte-typewriter";
   import MarqueeTextWidget from "svelte-marquee-text-widget";
+  import { onMount } from 'svelte';
   let touchMarquee = false;
   function marqueePause() {
     touchMarquee = true;
   }
+
+  let headline = 'UX/UI Designer, with a Affinity for Web Development'
+  let subheading = `...and I’m passionate about developing & designing digital products package with an amazing experiences.`
+  
+  function textSwap() {
+    let randomNumber = Math.floor(Math.random() * 3) + 1;
+
+    switch (randomNumber) {
+      case 1: headline = "Your one-stop-shop for top-notch handcrafted websites!";
+              subheading = "Bringing your vision to life with expertly designed interfaces and compelling content.";
+      break;
+      case 2: headline = "Groovy Web Development for the Modern Era.";
+              subheading = "Get Your Site Looking Just Right, With Design That's Out of Sight!";
+      break;
+      case 3: headline = "Harnessing the Power of the World Wide Web.";
+              subheading = "Your Secret Weapon to Online Success.";
+      break;
+  }
+}
+
+onMount(async () => {
+  textSwap();
+	});
 
   let powerUp = false;
 
@@ -29,28 +53,24 @@
 </div> -->
 </div>
   <div class="flex justify-center">
-  
+  <button on:click={textSwap}>
     <img class="px-5 my-5 sm:h-48 md:h-64 hover:scale-105 transition active:scale-95 select-none" src="/base/move-machines.webp" alt="3 retro machines in a svg vector format">
-    
+  </button>
   </div>
   
   
     <h1 class="text-center md:text-4xl text-3xl font-bold select-none">‎ ‎
       <Typewriter mode="loopOnce" cursor={false} element="span">
         <span>
-        UX/UI Designer, with a Affinity for Web Development
-      </span>
-      <span>
-        Front End Developer, with a Spark of UX/UI Design
+        {headline}
       </span>
       </Typewriter>
     </h1>
 
     <p class="text-center text-xl my-5 select-none">‎ ‎
-  <Typewriter mode="loopOnce" cursor={false} element="span">
+  <Typewriter mode="loopOnce" cursor={false} delay={2000} element="span">
     <span>
-    ...and I’m passionate about developing & designing digital products
-    package with an amazing experiences.
+    {subheading}
   </span>
 </Typewriter>
 </p>
