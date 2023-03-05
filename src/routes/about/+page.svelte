@@ -103,17 +103,17 @@
 <div class="mx-5 md:mx-16 lg:mx-16 xl:mx-32 2xl:mx-48 my-12 pb-6 cursor-default">
 	<div class="flex flex-col lg:flex-row md:flex-col">
 		<div class="basis-2/3 mr-5">
-			<h2 class="text-5xl font-bold mb-3">Ooh Me?</h2>
+			<h2 class="text-5xl font-bold mb-3">My Values</h2>
 			<p class="text-lg mb-5">
-				I am mainly driven by the pursuit of knowledge, happiness, self-improvement and a love for
-				what I do!
+				Driven by the pursuit of knowledge, to create happiness, to always be improving and to keep a love for
+				quality and craftsmanship in everything I do!
 			</p>
 		</div>
 		<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
 			<div class="bg-white px-5 rounded-2xl shadow-xl border-y-4 border-applered p-5">
 				<div class="flex">
 					<img class="h-12" src="/base/icons/combo-dev-designer.webp" alt="" />
-					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Combo Dev Designer </span>
+					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Work with Inspiration</span>
 				</div>
 				<p class="py-3 text-lg">
 					I'm passionate about both development and design. One moment I'm creating some mockups &
@@ -124,7 +124,7 @@
 			<div class="bg-white px-5 rounded-2xl shadow-xl border-y-4 border-appleblue p-5">
 				<div class="flex">
 					<img class="h-12" src="/base/icons/growth-minset.webp" alt="" />
-					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Bit of a Brainiac</span>
+					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Always Learning, Always Growing</span>
 				</div>
 				<p class="py-3 text-lg">
 					I’m an academic at heart, I seek to find and understand things and I’m not afraid to say I
@@ -135,7 +135,7 @@
 			<div class="bg-white px-5 rounded-2xl shadow-xl border-y-4 border-appleyellow p-5">
 				<div class="flex">
 					<img class="h-12" src="/base/icons/happy-go-lucky.webp" alt="" />
-					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Happy Go Lucky </span>
+					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Make a Positive Impact</span>
 				</div>
 				<p class="py-3 text-lg">
 					I believe in being a good influence and making a positive impact in everything that I do.
@@ -146,7 +146,7 @@
 			<div class="bg-white px-5 rounded-2xl shadow-xl border-y-4 border-applegreen p-5">
 				<div class="flex">
 					<img class="h-12" src="/base/icons/well-optimized.webp" alt="" />
-					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Oh-so Optimized</span>
+					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Structure & Organization</span>
 				</div>
 				<p class="py-3 text-lg">
 					I'm organized and proficient at managing my time, I’ll send updates, keep a log of daily
