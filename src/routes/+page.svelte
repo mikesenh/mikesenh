@@ -17,11 +17,11 @@
       case 1: headline = "Your one-stop-shop for top-notch handcrafted websites!";
               subheading = "Bringing your vision to life with expertly designed interfaces and compelling content.";
       break;
-      case 2: headline = "Groovy Web Development for the Modern Era.";
+      case 2: headline = "Groovy web development for the modern era.";
               subheading = "Get Your Site Looking Just Right, With Design That's Out of Sight!";
       break;
-      case 3: headline = "Harnessing the Power of the World Wide Web.";
-              subheading = "Your Secret Weapon to Online Success.";
+      case 3: headline = "Create a Websites So Cool, Even Penguins Will Want to Surf Them~";
+              subheading = "Your Website, Your Rules, My Expertise!";
       break;
   }
 }
@@ -86,7 +86,7 @@ onMount(async () => {
 </div>
 
 <!-- bg-[url('/base/bg-transblue-flip.png')] -->
-<div class="">
+<div class="my-5">
 
 <MarqueeTextWidget duration={20} repeat={5} paused={touchMarquee}>
   <div class="flex mb-7 mt-3" on:mouseover={()=>{touchMarquee = true}} on:mouseout={()=>{touchMarquee = false}} on:focus={onFocus} on:blur={onBlur}>
