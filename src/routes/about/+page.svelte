@@ -63,7 +63,7 @@
 </button>
 -->
 
-<MarqueeTextWidget duration={20} repeat={5} paused={pauseOnHover}>
+<!-- <MarqueeTextWidget duration={20} repeat={5} paused={pauseOnHover}>
 	<div class="flex mb-7 mt-3">
 		<div
 			class="flex border-4 bg-white select-none border-almostwhite rounded-2xl p-5 mx-3 hover:hover:scale-105 active:hover:scale-95 hover:drop-shadow-lg transition ease-in-out"
@@ -98,44 +98,27 @@
 			</span>
 		</div>
 	</div>
-</MarqueeTextWidget>
+</MarqueeTextWidget> -->
 
 <div class="mx-5 md:mx-16 lg:mx-16 xl:mx-32 2xl:mx-48 my-12 pb-6 cursor-default">
 	<div class="flex flex-col lg:flex-row md:flex-col">
 		<div class="basis-2/3 mr-5">
-			<h2 class="text-5xl font-bold mb-3">Ooh Me?</h2>
+			<h2 class="text-5xl font-bold mb-3">Core Values:</h2>
 			<p class="text-lg mb-5">
-				I am mainly driven by the pursuit of knowledge, happiness, self-improvement and a love for
-				what I do!
+				In essences, I value doing good work to the best of my ability, with a focusing on creating high quality works, to imporvements already made systems and being a driving force that turn ideas into reality!
+				<!-- Positivity keeps us going,
+Education keeps me growing,
+Craftsmanship is gold,
+Results ensures my impact is told. -->
 			</p>
 		</div>
+
+		
 		<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-			<div class="bg-white px-5 rounded-2xl shadow-xl border-y-4 border-applered p-5">
-				<div class="flex">
-					<img class="h-12" src="/base/icons/combo-dev-designer.webp" alt="" />
-					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Combo Dev Designer </span>
-				</div>
-				<p class="py-3 text-lg">
-					I'm passionate about both development and design. One moment I'm creating some mockups &
-					prototypes and in another moment I'm coding it into life!
-				</p>
-			</div>
-
-			<div class="bg-white px-5 rounded-2xl shadow-xl border-y-4 border-appleblue p-5">
-				<div class="flex">
-					<img class="h-12" src="/base/icons/growth-minset.webp" alt="" />
-					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Bit of a Brainiac</span>
-				</div>
-				<p class="py-3 text-lg">
-					I’m an academic at heart, I seek to find and understand things and I’m not afraid to say I
-					don’t know something, because I will understand it, eventually.
-				</p>
-			</div>
-
-			<div class="bg-white px-5 rounded-2xl shadow-xl border-y-4 border-appleyellow p-5">
+			<div class="border-almostwhite select-none bg-white rounded-2xl px-5 shadow-xl border-4 p-5">
 				<div class="flex">
 					<img class="h-12" src="/base/icons/happy-go-lucky.webp" alt="" />
-					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Happy Go Lucky </span>
+					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Make a Positive Impact</span>
 				</div>
 				<p class="py-3 text-lg">
 					I believe in being a good influence and making a positive impact in everything that I do.
@@ -143,21 +126,41 @@
 				</p>
 			</div>
 
-			<div class="bg-white px-5 rounded-2xl shadow-xl border-y-4 border-applegreen p-5">
+			<div class="border-almostwhite select-none bg-white rounded-2xl px-5 shadow-xl border-4 p-5">
+				<div class="flex">
+					<img class="h-12" src="/base/icons/growth-minset.webp" alt="" />
+					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Learning & Growing</span>
+				</div>
+				<p class="py-3 text-lg">
+					I’m an academic at heart, I seek to find and understand things, I find fulfillment in acquiring new skills and knowledge, to prepare myself for the challenges of the future.
+				</p>
+			</div>
+
+			<div class="border-almostwhite select-none bg-white rounded-2xl px-5 shadow-xl border-4 p-5">
+				<div class="flex">
+					<img class="h-12" src="/base/icons/making-things-happen.webp" alt="" />
+					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Produce Quality Work</span>
+				</div>
+				<p class="py-3 text-lg">
+					I strive for execellence in everything that I do, with careful consideration, improvement and maintenance. I'm dedicated to producing high-quality work that you'll love.
+				</p>
+			</div>
+
+			<div class="border-almostwhite select-none bg-white rounded-2xl px-5 shadow-xl border-4 p-5">
 				<div class="flex">
 					<img class="h-12" src="/base/icons/well-optimized.webp" alt="" />
-					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Oh-so Optimized</span>
+					<span class="self-center mr-3 font-semibold ml-3 text-2xl">Insure Results</span>
 				</div>
 				<p class="py-3 text-lg">
 					I'm organized and proficient at managing my time, I’ll send updates, keep a log of daily
-					duties, track tasks and overall make sure everything is done in a timely manner.
+					duties, track tasks and overall make sure everything is done in a timely manner. Insuring sucess!
 				</p>
 			</div>
 		</div>
 	</div>
 </div>
 
-<MarqueeTextWidget duration={20} repeat={5} paused={pauseOnHover}>
+<!-- <MarqueeTextWidget duration={20} repeat={5} paused={pauseOnHover}>
 	<div class="flex mb-7 mt-3">
 		<div
 			class="flex border-4 bg-white select-none border-almostwhite rounded-2xl p-5 mx-3 hover:hover:scale-105 active:hover:scale-95 hover:drop-shadow-lg transition ease-in-out"
@@ -192,13 +195,13 @@
 			</span>
 		</div>
 	</div>
-</MarqueeTextWidget>
+</MarqueeTextWidget> -->
 
 <div class="mx-5 md:mx-36 lg:mx-16 xl:mx-32 2xl:mx-48 my-12 pb-6 cursor-default">
 	<h2 class="text-5xl font-semibold text-center">Résumé Summary</h2>
 	<p class="text-lg mb-10 text-center">Curriculum Vitae</p>
 	<div class="grid xl:grid-cols-3 grid-cols-1 gap-5">
-		<div class="bg-white border-applegreen  p-10 rounded-2xl shadow-2xl border-4">
+		<div class="bg-white border-almostwhite  transition p-10 rounded-2xl shadow-2xl border-4">
 			<div class="flex">
 				<img class="h-12" src="/base/icons/inquisitive-alumni.webp" alt="" />
 				<span class="self-center mr-3 font-semibold ml-3 text-2xl">General Education </span>
@@ -212,7 +215,7 @@
 		</span>	 User Experience (UX), User Interaction Theory (UI), Full Stack Development</p>
 		</div>
 
-		<div class="bg-white border-appleyellow  p-10 rounded-2xl shadow-2xl border-4">
+		<div class="bg-white border-almostwhite transition p-10 rounded-2xl shadow-2xl border-4">
 			<div class="flex">
 				<img class="h-12" src="/base/icons/human-focus-design.webp" alt="" />
 				<span class="self-center mr-3 font-semibold ml-3 text-2xl">Ideal Design Tools</span>
@@ -229,7 +232,7 @@
 		
 			</div>
 
-		<div class="bg-white border-appleblue  p-10 rounded-2xl shadow-2xl border-4">
+		<div class="bg-white border-almostwhite  p-10 rounded-2xl shadow-2xl border-4">
 			<div class="flex">
 				<img class="h-12" src="/base/icons/computational-coder.webp" alt="" />
 				<span class="self-center mr-3 font-semibold ml-3 text-2xl">Preferable Development</span>
@@ -251,11 +254,14 @@
 	
 
 	<div class="flex justify-center mt-10">
-		<a class="text-gray-800 bg-white border-almostwhite text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-applered hover:-translate-y-1 hover:drop-shadow-md transition" href="/about">Résumé Download</a>
+		
+		<a class="text-gray-800 bg-white border-almostwhite text-xl border-4 p-2 px-7 rounded-full border-zinc-700 border-applered hover:-translate-y-1 hover:drop-shadow-md transition" href="/about"><img class="inline" src="/base/icons/download.svg" alt=""> Resume Download
+		
+		</a>
 		</div>
 </div>
 
-<div class="mx-5 md:mx-36 lg:mx-16 xl:mx-52 2xl:mx-48 my-12 pb-6 cursor-default">
+<div class="mx-20 md:mx-36 lg:mx-16 xl:mx-10 2xl:mx-10 my-12 pb-6 cursor-default">
 	<h3 class="text-5xl text-center font-semibold">If you catch me in the wild, I’ll be...</h3>
 	<p class="text-lg text-center">doing a bunch of stuff, but mostly I’ll be*</p>
 	<div class="grid xl:grid-cols-4 lg:grid-cols-2 gap-5 mt-10">
@@ -266,7 +272,7 @@
 
 		<div>
 			<img class=" border-8 border-almostblack rounded-3xl place-self-center mr-5 drop-shadow-2xl rounded-2xl w-full" src="/about/dnd.webp" alt="">
-			<p class="text-xl text-center mt-3">dungeoneering</p>
+			<p class="text-xl text-center mt-3">playing board games</p>
 		</div>
 
 		<div>
