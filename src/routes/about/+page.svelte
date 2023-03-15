@@ -100,12 +100,12 @@
 	</div>
 </MarqueeTextWidget> -->
 
-<div class="mx-5 md:mx-16 lg:mx-16 xl:mx-32 2xl:mx-48 my-12 pb-6 cursor-default">
+<div class="mx-5 md:mx-16 lg:mx-16 xl:mx-16 2xl:mx-48 my-12 pb-6 cursor-default">
 	<div class="flex flex-col lg:flex-row md:flex-col">
 		<div class="basis-2/3 mr-5">
-			<h2 class="text-5xl font-bold mb-3">Core Values:</h2>
+			<h2 class="text-5xl font-bold mb-3">My Values:</h2>
 			<p class="text-lg mb-5">
-				In essences, I value doing good work to the best of my ability, with a focusing on creating high quality works, to imporvements already made systems and being a driving force that turn ideas into reality!
+				In essences, I value doing good work with a focusing on creating quality product, to imporvements systems and being a driving force that turn your ideas into reality!
 				<!-- Positivity keeps us going,
 Education keeps me growing,
 Craftsmanship is gold,
@@ -197,7 +197,7 @@ Results ensures my impact is told. -->
 	</div>
 </MarqueeTextWidget> -->
 
-<div class="mx-5 md:mx-16 lg:mx-5 xl:mx-10 2xl:mx-10 my-12 pb-6 cursor-default">
+<div class="mx-5 md:mx-16 lg:mx-16 xl:mx-16 2xl:mx-48 my-12 pb-6 cursor-default ">
 	<h2 class="text-5xl font-semibold text-center">Résumé Summary</h2>
 	<p class="text-lg mb-10 text-center">Curriculum Vitae</p>
 	<div class="grid lg:grid-cols-3 grid-cols-1 gap-5">
@@ -261,7 +261,7 @@ Results ensures my impact is told. -->
 		</div>
 </div>
 
-<div class="mx-5 md:mx-16 lg:mx-16 xl:mx-10 2xl:mx-10 my-12 pb-6 cursor-default">
+<div class="mx-5 md:mx-16 lg:mx-16 xl:mx-16 2xl:mx-10 my-12 pb-6 2xl:mx-48 cursor-default">
 	<h3 class="text-5xl text-center font-semibold">If you catch me in the wild, I’ll be...</h3>
 	<p class="text-lg text-center">doing a bunch of stuff, but mostly I’ll be*</p>
 	<div class="grid xl:grid-cols-4 lg:grid-cols-2 grid-cols-2 gap-5 mt-10">
