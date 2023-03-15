@@ -178,7 +178,7 @@
 }
 [tooltip][flow^="right"]::after {
   top: 65%;
-  left: calc(100% + 15px);
+  left: calc(100% + 150px);
   -webkit-transform: translate(.5em, -50%);
   transform: translate(.5em, -50%);
 }
