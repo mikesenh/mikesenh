@@ -173,12 +173,14 @@
   border-left-width: 0;
   border-right-color: #333;
   right: calc(0em - 15px);
+  right: -webkit-calc(0em - 15px);
   -webkit-transform: translate(.5em, -50%);
   transform: translate(.5em, -50%);
 }
 [tooltip][flow^="right"]::after {
   top: 65%;
-  left: calc(100% + 150px);
+  left: calc(100% + 15px);
+  left: -webkit-calc(100% + 15px);
   -webkit-transform: translate(.5em, -50%);
   transform: translate(.5em, -50%);
 }
