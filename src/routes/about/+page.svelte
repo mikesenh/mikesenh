@@ -197,10 +197,10 @@ Results ensures my impact is told. -->
 	</div>
 </MarqueeTextWidget> -->
 
-<div class="mx-5 md:mx-36 lg:mx-16 xl:mx-32 2xl:mx-48 my-12 pb-6 cursor-default">
+<div class="mx-5 md:mx-16 lg:mx-5 xl:mx-10 2xl:mx-10 my-12 pb-6 cursor-default">
 	<h2 class="text-5xl font-semibold text-center">Résumé Summary</h2>
 	<p class="text-lg mb-10 text-center">Curriculum Vitae</p>
-	<div class="grid xl:grid-cols-3 grid-cols-1 gap-5">
+	<div class="grid lg:grid-cols-3 grid-cols-1 gap-5">
 		<div class="bg-white border-almostwhite  transition p-10 rounded-2xl shadow-2xl border-4">
 			<div class="flex">
 				<img class="h-12" src="/base/icons/inquisitive-alumni.webp" alt="" />
@@ -261,10 +261,10 @@ Results ensures my impact is told. -->
 		</div>
 </div>
 
-<div class="mx-20 md:mx-36 lg:mx-16 xl:mx-10 2xl:mx-10 my-12 pb-6 cursor-default">
+<div class="mx-5 md:mx-16 lg:mx-16 xl:mx-10 2xl:mx-10 my-12 pb-6 cursor-default">
 	<h3 class="text-5xl text-center font-semibold">If you catch me in the wild, I’ll be...</h3>
 	<p class="text-lg text-center">doing a bunch of stuff, but mostly I’ll be*</p>
-	<div class="grid xl:grid-cols-4 lg:grid-cols-2 gap-5 mt-10">
+	<div class="grid xl:grid-cols-4 lg:grid-cols-2 grid-cols-2 gap-5 mt-10">
 		<div>
 			<img class=" border-8 border-almostblack rounded-3xl place-self-center mr-5 drop-shadow-2xl rounded-2xl w-full" src="/about/viet-food.webp" alt="">
 			<p class="text-xl text-center mt-3">cooking exotic meals</p>
