@@ -301,13 +301,13 @@
 }
 
 /* FLOW: RIGHT */
-/* [tooltip][flow^="right"]::before {
+[tooltip][flow^="right"]::before {
   top: 65%;
   border-left-width: 0;
   border-right-color: #333;
   right: calc(0em - 15px);
   transform: translate(.5em, -50%);
-} */
+}
 [tooltip][flow^="right"]::after {
   top: 65%;
   left: calc(100% + 15px);

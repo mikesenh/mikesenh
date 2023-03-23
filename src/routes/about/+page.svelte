@@ -14,7 +14,7 @@
 	<div class="flex flex-col lg:flex-row md:mx-12 lg:mx-0 2xl:mx-24 drop-shadow-xl ">
 		<div class=" lg:w-1/2 mr-5 grid content-center w-100 my-5 m-5">
 			<img
-				class=" hover:-rotate-3 transition active:rotate-3 active:cursor-default border-8 border-almostblack rounded-3xl place-self-center mr-5 drop-shadow-2xl rounded-2xl"
+				class="transition border-8 border-almostblack rounded-3xl place-self-center mr-5 drop-shadow-2xl"
 				src="/about/photo-of-mike.webp"
 				alt=""
 			/>
@@ -24,7 +24,7 @@
 		>
 			<span>
 				<h1 class="border-b-4 border-appleblue text-3xl font-semibold py-5 mb-5 ">
-					Hello, I’m Mike T.
+					Meet Mike Tran, The Web Wizard 🔮 ~!
 				</h1>
 				<p class="text-2xl">
 					If you’re seeking a someone who can creativity craft websites that goes above and beyond
@@ -103,7 +103,7 @@
 <div class="mx-5 md:mx-16 lg:mx-16 xl:mx-16 2xl:mx-48 my-12 pb-6 cursor-default">
 	<div class="flex flex-col lg:flex-row md:flex-col">
 		<div class="basis-2/3 mr-5">
-			<h2 class="text-5xl font-bold mb-3">My Values:</h2>
+			<h2 class="text-5xl font-bold mb-3">My Core Values:</h2>
 			<p class="text-lg mb-5">
 				In essences, I value doing good work with a focusing on creating quality product, to imporvements systems and being a driving force that turn your ideas into reality!
 				<!-- Positivity keeps us going,

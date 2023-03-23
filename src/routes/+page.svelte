@@ -11,7 +11,14 @@
   let subheading = `...and I’m passionate about developing & designing digital products package with an amazing experiences.`
   
   function textSwap() {
+
     let randomNumber = Math.floor(Math.random() * 3) + 1;
+    let rememberNumber = randomNumber
+    while (rememberNumber == randomNumber) {
+      randomNumber = Math.floor(Math.random() * 3) + 1;
+      console.log(`CP2: ${rememberNumber} = ${randomNumber}`)
+    }
+    rememberNumber = randomNumber
 
     switch (randomNumber) {
       case 1: headline = "Your one-stop-shop for top-notch handcrafted websites!";
@@ -175,6 +182,9 @@ onMount(async () => {
 </div>
 
 </div>
+
+
+
 <style>
   .fa-arrow-left {
     -webkit-animation: bounceLeft 2s infinite;
