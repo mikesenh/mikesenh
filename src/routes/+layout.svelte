@@ -56,11 +56,11 @@
 			href="/"
 			>
 			{#if isWindows}
-			<span tooltip="Mikesenh Windows" flow="right">
+			<span tooltip="Mikesenh" flow="right">
 				<img on:mouseover={handleMouseOver} on:mouseout={handleMouseOut} on:blur={onBlur} on:focus={onFocus}  class="h-14 lg:h-24 hover:scale-105 transition" src={colour} alt="">
 				</span>
 				{:else if isMac}
-				<span mac-tooltip="Mikesenh Macintosh" flow="right">
+				<span mac-tooltip="Mikesenh" flow="right">
 					<img on:mouseover={handleMouseOver} on:mouseout={handleMouseOut} on:blur={onBlur} on:focus={onFocus}  class="h-14 lg:h-24 hover:scale-105 transition" src={colour} alt="">
 					</span>
 			{/if}	
@@ -426,12 +426,12 @@
   top: 65%;
   border-left-width: 0;
   border-right-color: #333;
-  right: calc(0em - 35px);
+  right: calc(0em - 15px);
   transform: translate(.5em, -50%);
 }
 [mac-tooltip][flow^="right"]::after {
   top: 65%;
-  left: calc(100% + 35px);
+  left: calc(100% + 15px);
   transform: translate(.5em, -50%);
 }
 
