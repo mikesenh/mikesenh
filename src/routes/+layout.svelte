@@ -60,7 +60,7 @@
 				<img on:mouseover={handleMouseOver} on:mouseout={handleMouseOut} on:blur={onBlur} on:focus={onFocus}  class="h-14 lg:h-24 hover:scale-105 transition" src={colour} alt="">
 				</span>
 				{:else if isMac}
-				<span mac-tooltip="Mikesenh" flow="right">
+				<span>
 					<img on:mouseover={handleMouseOver} on:mouseout={handleMouseOut} on:blur={onBlur} on:focus={onFocus}  class="h-14 lg:h-24 hover:scale-105 transition" src={colour} alt="">
 					</span>
 			{/if}	
@@ -430,14 +430,14 @@
   transform: translate(.5em, -50%);
 } */
 [mac-tooltip][flow^="right"]::after {
-  top: 0px;
+  bottom: 0px;
   left: calc(100px + 15px);
   transform: translate(.5em, -50%);
 }
 
 @media only screen and (max-width: 1024px) {
   [mac-tooltip][flow^="right"]::after {
-  top: 0px;
+  bottom: 0px;
   left: calc(55px + 15px);
   transform: translate(.5em, -50%);
 }
