@@ -422,17 +422,25 @@
 }
 
 /* FLOW: RIGHT */
-[mac-tooltip][flow^="right"]::before {
+/* [mac-tooltip][flow^="right"]::before {
   top: 65%;
   border-left-width: 0;
   border-right-color: #333;
   right: calc(0em - 15px);
   transform: translate(.5em, -50%);
-}
+} */
 [mac-tooltip][flow^="right"]::after {
   top: 65%;
-  left: calc(100vw + 15px);
+  left: calc(100px + 15px);
   transform: translate(.5em, -50%);
+}
+
+@media only screen and (max-width: 1024px) {
+  [mac-tooltip][flow^="right"]::after {
+  top: 65%;
+  left: calc(55px + 15px);
+  transform: translate(.5em, -50%);
+}
 }
 
 /* KEYFRAMES */
