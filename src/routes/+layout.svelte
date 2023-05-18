@@ -430,14 +430,14 @@
   transform: translate(.5em, -50%);
 } */
 [mac-tooltip][flow^="right"]::after {
-  top: -5px;
+  top: 0px;
   left: calc(100px + 15px);
   transform: translate(.5em, -50%);
 }
 
 @media only screen and (max-width: 1024px) {
   [mac-tooltip][flow^="right"]::after {
-  top: -15px;
+  top: 0px;
   left: calc(55px + 15px);
   transform: translate(.5em, -50%);
 }
