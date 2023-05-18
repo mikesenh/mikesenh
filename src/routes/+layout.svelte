@@ -60,7 +60,7 @@
 				<img on:mouseover={handleMouseOver} on:mouseout={handleMouseOut} on:blur={onBlur} on:focus={onFocus}  class="h-14 lg:h-24 hover:scale-105 transition" src={colour} alt="">
 				</span>
 				{:else if isMac}
-				<span mac-tooltip="Mikesenh" flow="right">
+				<span>
 					<img on:mouseover={handleMouseOver} on:mouseout={handleMouseOut} on:blur={onBlur} on:focus={onFocus}  class="h-14 lg:h-24 hover:scale-105 transition" src={colour} alt="">
 					</span>
 			{/if}	
