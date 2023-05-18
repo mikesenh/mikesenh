@@ -423,15 +423,15 @@
 
 /* FLOW: RIGHT */
 [mac-tooltip][flow^="right"]::before {
-  top: 35%;
+  top: 65%;
   border-left-width: 0;
   border-right-color: #333;
-  right: calc(0em - 65px);
+  right: calc(0em - 15px);
   transform: translate(.5em, -50%);
 }
 [mac-tooltip][flow^="right"]::after {
-  top: 35%;
-  left: calc(100% + 65px);
+  top: 65%;
+  left: calc(100% + 15px);
   transform: translate(.5em, -50%);
 }
 
