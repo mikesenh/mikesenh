@@ -426,12 +426,12 @@
   top: 65%;
   border-left-width: 0;
   border-right-color: #333;
-  right: -14%;
+  right: calc(0em - 15px);
   transform: translate(.5em, -50%);
 }
 [mac-tooltip][flow^="right"]::after {
-  top: 35%;
-  left: 100px;
+  top: 65%;
+  left: calc(100vw + 15px);
   transform: translate(.5em, -50%);
 }
 
