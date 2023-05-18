@@ -430,8 +430,8 @@
   transform: translate(.5em, -50%);
 }
 [mac-tooltip][flow^="right"]::after {
-  top: 65%;
-  left: 114%;
+  top: 35%;
+  left: 100px;
   transform: translate(.5em, -50%);
 }
 
