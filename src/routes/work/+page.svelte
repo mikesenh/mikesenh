@@ -60,7 +60,8 @@
         >Next</button
       >
     </div>
-<!-- * I was here
+<!-- 
+  * I was here
 	? what happen
 	TODO: DO THIS!
 	! What going on here!
@@ -69,7 +70,7 @@
     <SplideTrack>
       <SplideSlide>
         <div
-          class="group hover:scale-105 transition bg-white p-5 rounded-2xl drop-shadow-xl m-5 mb-12"
+          class="group hover:scale-105 transition bg-white p-5 rounded-2xl drop-shadow-xl m-3 mb-12"
         >
           <div class="flex justify-between">
             <span>
@@ -107,7 +108,7 @@
       </SplideSlide>
       <SplideSlide>
         <div
-          class="group hover:scale-105 transition bg-white p-5 rounded-xl drop-shadow-xl m-5 mb-12"
+          class="group hover:scale-105 transition bg-white p-5 rounded-xl drop-shadow-xl m-3 mb-12"
         >
           <div class="flex justify-between">
             <span>
@@ -145,7 +146,7 @@
       </SplideSlide>
       <SplideSlide>
         <div
-          class="group hover:scale-105 transition bg-white p-5 rounded-xl drop-shadow-xl m-5 mb-12"
+          class="group hover:scale-105 transition bg-white p-5 rounded-xl drop-shadow-xl m-3 mb-12"
         >
           <div class="flex justify-between">
             <span>
@@ -262,7 +263,7 @@
     height: auto;
   }
 
-  .img-overlay {
+  /* .img-overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -274,11 +275,11 @@
     transition: 0.5s ease;
     background: rgba(0, 0, 0, 0.8);
     border-radius: 1rem;
-  }
+  } */
 
-  .img-click-container:hover .img-overlay {
+  /* .img-click-container:hover .img-overlay {
     opacity: 1;
-  }
+  } */
 
   .img-click-content {
     color: white;
