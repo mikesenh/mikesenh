@@ -273,7 +273,7 @@
   title_string = 'Incredibly Interconnectable Toys'
   desc_string = "In this project, my main focus was to redesign the website for Incredibly Interconnectable Toys, infusing it with a fresh and captivating aesthetic. The aim was to provide an enhanced user experience, enticing visitors to explore the world of toys in a unique and engaging way. "
   link_href = '/work/project-grace'
-  btn_string = 'In the Work - Release Date: 6/24/2023'
+  btn_string = 'In the Works - Release Date: 6/24/2023'
   option_char = "R"
   is_disable = 'true'
   />
