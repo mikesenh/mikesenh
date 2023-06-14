@@ -36,8 +36,8 @@
 
 			<p class="text-xl">
 				<br />
-				<a class="hover:text-appleblue" href="/">LinkedIn</a> |
-				<a class="hover:text-appleblue" href="/">Resume</a>
+				<a class="hover:text-appleblue" href="https://www.linkedin.com/in/michael-tran-20462112a/">LinkedIn</a> |
+				<a class="hover:text-appleblue" href="/about/Michael Tran Resume _ CV 2023.pdf">Resume</a>
 			</p>
 		</div>
 	</div>
@@ -256,7 +256,7 @@ Results ensures my impact is told. -->
 	<div class="flex justify-center mt-10">
 		
 		<a class="text-gray-800 bg-white border-almostwhite text-xl border-4 p-2 px-7 rounded-full border-zinc-700 border-applered hover:-translate-y-1 hover:drop-shadow-md transition" href="/about/Michael Tran Resume _ CV 2023.pdf" download><img class="inline" src="/base/icons/download.svg" alt="michael's resume download" > Resume Download
-		
+		download
 		</a>
 		</div>
 </div>
