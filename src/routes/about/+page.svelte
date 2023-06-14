@@ -255,7 +255,7 @@ Results ensures my impact is told. -->
 
 	<div class="flex justify-center mt-10">
 		
-		<a class="text-gray-800 bg-white border-almostwhite text-xl border-4 p-2 px-7 rounded-full border-zinc-700 border-applered hover:-translate-y-1 hover:drop-shadow-md transition" href="/about"><img class="inline" src="/base/icons/download.svg" alt=""> Resume Download
+		<a class="text-gray-800 bg-white border-almostwhite text-xl border-4 p-2 px-7 rounded-full border-zinc-700 border-applered hover:-translate-y-1 hover:drop-shadow-md transition" href="/about/Michael Tran Resume _ CV 2023.pdf" download><img class="inline" src="/base/icons/download.svg" alt="michael's resume download" > Resume Download
 		
 		</a>
 		</div>

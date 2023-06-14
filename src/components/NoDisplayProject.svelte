@@ -1,0 +1,149 @@
+<script>
+  export let img_src = "/project/thumbnail.png";
+  export let img_alt = "Error 418 : Server Refuse to Brew";
+  export let extra_string = "extra_string={?}";
+  export let title_string = "title_string={?}";
+  export let desc_string = "desc_string={?}";
+  // export let link_href = "link_href={?}";
+  export let btn_string = "btn_string={?}";
+  export let option_char = "L";
+
+  /**
+  * * Example Usage
+  <DisplayProject
+  extra_string = 'Web Design / Web Development / UX Design / UI Design'
+  title_string = 'The Grace Company'
+  desc_string = "In this project, I undertook the mission to enhance and modernize The
+  Grace Company's website, aligning it with contemporary design trends.
+  By implementing a cohesive design system, the website underwent a
+  transformation that not only resulted in increased sales but also
+  positioned the company as a cutting-edge leader in the quilting
+  machine and frame industry."
+  link_href = '/work/project-grace'
+  btn_string = 'View Case Study'
+  option_char = "L"
+  />
+*/
+</script>
+
+<div class="container mx-auto my-12">
+  <!-- <h3 class="lg:mx-10 mx-5 text-3xl font-bold mb-5 ">Recent Work</h3> -->
+  <div class="grid lg:grid-cols-2 col-cols-1 mx-5">
+    {#if option_char == "L"}
+      <div class=" place-self-center mb-5 transition">
+        <div class=" transition">
+          <img
+            class="rounded-2xl w-full img-click-image border-almostblack drop-shadow-2xl"
+            src={img_src}
+            alt={img_alt}
+          />
+        </div>
+      </div>
+
+      <div class="place-self-center lg:mx-11 md:mx-5">
+        <p class="text-base">
+          {extra_string}
+        </p>
+        <h4 class="text-3xl my-2 font-semibold">{title_string}</h4>
+        <p class="text-lg mb-5">
+          {desc_string}
+        </p>
+        <span>
+          <div class="flex">
+            <button
+              class="text-center border-almostwhite text-gray-800 bg-white text-xl border-4 p-2 px-7 rounded-full border-almostwhite border-grey-400 cursor-not-allowed"
+              >{btn_string}</button
+            >
+
+            <br />
+            <br />
+          </div>
+        </span>
+      </div>
+    {:else}
+      <div class="lg:hidden md:block place-self-center mb-5 transition">
+        <div class="transition">
+          <img
+            class="rounded-2xl w-full img-click-image border-almostblack drop-shadow-2xl"
+            src={img_src}
+            alt={img_alt}
+          />
+        </div>
+      </div>
+
+      <div class="place-self-center lg:mx-11 md:mx-5">
+        <p class="text-base">
+          {extra_string}
+        </p>
+        <h4 class="text-3xl my-2 font-semibold">{title_string}</h4>
+        <p class="text-lg mb-5">
+          {desc_string}
+        </p>
+        <span>
+          <div class="flex">
+            <button
+              class="text-center text-gray-800 bg-white text-xl border-4 p-2 px-7 rounded-full border-almostwhite cursor-not-allowed"
+              >{btn_string}</button
+            >
+
+            <br />
+            <br />
+          </div>
+        </span>
+      </div>
+
+      <div class="hidden lg:block place-self-center mb-5 transition">
+        <div class="transition">
+          <img
+            class="rounded-2xl w-full img-click-image border-almostblack drop-shadow-2xl"
+            src={img_src}
+            alt={img_alt}
+          />
+        </div>
+      </div>
+    {/if}
+  </div>
+</div>
+
+<style>
+  /* .img-click-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .img-click-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 1rem;
+  }
+
+  .img-click-container:hover .img-overlay {
+    opacity: 1;
+  }
+
+  .img-click-content {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } */
+</style>
