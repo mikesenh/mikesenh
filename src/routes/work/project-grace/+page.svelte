@@ -162,7 +162,7 @@ I conducted a focus group with customers of that demographic, allowing them to s
   <img
     class="rounded-xl shadow-lg w-full mt-5"
     loading="lazy"
-    src="/project/grace/gf-takeaway-v5.webp"
+    src="/project/grace/gf-takeaway.webp"
     alt=""
   />
 </div>
