@@ -76,7 +76,7 @@
     </div>
     <div class="flex justify-center">
       <button on:click={textSwap}>
-        <img
+        <img width="762" height="256"
           class="px-5 my-5 sm:h-48 md:h-64 hover:scale-105 transition active:scale-95 select-none"
           src="/base/move-machines.webp"
           alt="3 retro machines in a svg vector format"
@@ -159,7 +159,7 @@
           </h2>
           <p class="mb-2">
             If you already have a website rest assure I can keep it in good
-            shape, you can count on me to keep things (mostly) striaght!
+            shape, you can count on me to keep everything in straight!
           </p>
         </span>
       </div>
@@ -266,14 +266,14 @@
   is_disable = false
   />
 
-  <NoDisplayProject
+  <DisplayProject
   img_src = '/project/toys/thumbnail.webp'
   img_alt = 'project: The Grace Company work: UX, UI & Web Development'
   extra_string = 'Web Design / UI Design'
   title_string = 'Incredibly Interconnectable Toys'
   desc_string = "In this project, my main focus was to redesign the website for Incredibly Interconnectable Toys, infusing it with a fresh and captivating aesthetic. The aim was to provide an enhanced user experience, enticing visitors to explore the world of toys in a unique and engaging way. "
-  link_href = '/work/project-grace'
-  btn_string = 'In the Works - Release Date: 6/24/2023'
+  link_href = '/work/project-iit'
+  btn_string = 'View Design'
   option_char = "R"
   is_disable = 'true'
   />
