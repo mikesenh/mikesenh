@@ -159,7 +159,7 @@
           </h2>
           <p class="mb-2">
             If you already have a website rest assure I can keep it in good
-            shape, you can count on me to keep everything in straight!
+            shape, you can count on me to keep everything straight!
           </p>
         </span>
       </div>
