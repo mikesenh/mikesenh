@@ -58,7 +58,7 @@
       
     ERROR_NUM: {$page.status} 
   </b>
-  <p class="text-center text-2xl mx-5 mt-2">Sorry, there seems to be a problem with our servers, you're internet or both.</p>
+  <p class="text-center text-2xl mx-5 mt-2">Sorry, there seems to be a problem...</p>
   <span class="flex justify-center">
   <img on:click={changeFact} on:mouseover={handleMouseOver} on:mouseout={handleMouseOut} on:keydown={onBlur} on:blur={onBlur} on:focus={onFocus} class="my-16 h-28 sm:h-48 md:h-64 hover:scale-105 transition active:scale-95" src={colour} alt="">
 </span>
