@@ -130,7 +130,7 @@
 
           <!-- <a class="text-gray-800 hover:text-blue-400" href="/blog">Blogs</a>
 		  <a class="text-gray-800 hover:text-blue-400" href="/contact">Contact US</a> -->
-          <a
+          <a data-sveltekit-preload-data
             class="text-gray-800 border-almostwhite bg-white text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-appleyellow hover:-translate-y-1 hover:drop-shadow-md transition"
             href="/about">About Me</a
           >
