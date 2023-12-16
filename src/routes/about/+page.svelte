@@ -45,7 +45,7 @@
         |
         <a
           class="hover:text-appleblue"
-          href="/about/Michael Tran Resume _ CV 2023.pdf">Resume</a
+          href="/about/Michael Tran Resume_CV.pdf">Resume</a
         >
       </p>
     </div>
@@ -305,7 +305,7 @@ Results ensures my impact is told. -->
   <div class="flex justify-center mt-10">
     <a
       class="text-gray-800 bg-white text-xl border-4 p-2 px-7 rounded-full border-zinc-700 border-applered hover:-translate-y-1 hover:drop-shadow-md transition"
-      href="/about/Michael Tran Resume _ CV 2023.pdf"
+      href="/about/Michael Tran Resume_CV.pdf"
       download
       ><img
         class="inline"
