@@ -64,7 +64,7 @@
 </span>
   
 
-<p class="text-center text-2xl mx-5 mt-2 sm:mx-20 mx-32"> 
+<p class="text-center text-2xl mx-5 mt-2 sm:mx-20"> 
   {@html fact}
   <!-- <b>Cunningham's Law</b> - the best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer.</p> -->
 
