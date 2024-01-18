@@ -281,14 +281,14 @@
   is_disable = 'true'
   />
 
-  <NoDisplayProject
+  <DisplayProject
   img_src = '/project/agawa/thumbnail.webp'
   img_alt = 'agawa thumbnail - japanese restaurant website'
   extra_string = 'Web Design / UI Design / Branding'
   title_string = 'Agawa'
   desc_string = "In this project, I am designing a visually captivating and user-friendly website for a Japanese restaurant, with a focus on expanding their customer base by accommodating both English and Japanese languages. The primary goal is to create an immersive online experience that reflects the rich cultural heritage of Japan while ensuring seamless navigation and functionality for visitors."
-  link_href = '/work/project-grace'
-  btn_string = 'Coming Soon - Date Yet to be Revealed.'
+  link_href = '/work/project-agawa'
+  btn_string = 'View Design'
   option_char = "L"
   is_disable = "true"
   />

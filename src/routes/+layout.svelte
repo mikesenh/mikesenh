@@ -183,7 +183,7 @@
       </div>
       <div class="flex justify-center mx-5">
         <div class="mb-5">
-          <p>All rights reserved. – Designed & Coded by Michael Tran © 2023</p>
+          <p>All rights reserved. – Designed & Coded by Michael Tran © 2024</p>
         </div>
       </div>
     </div>
