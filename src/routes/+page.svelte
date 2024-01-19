@@ -57,13 +57,12 @@
   const onBlur = () => (isFocused = false);
 
   function scrollIntoView({ target }) {
-		const el = document.querySelector(target.getAttribute('href'));
-		if (!el) return;
+    const el = document.querySelector(target.getAttribute("href"));
+    if (!el) return;
     el.scrollIntoView({
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   }
-
 </script>
 
 <!-- bg-[url('/base/bg-transblue.png')] -->
@@ -78,8 +77,10 @@
     <div class="flex justify-center">
       <button on:click={textSwap}>
         <!-- <img on:mouseover={handleMouseOut} on:mouseout={handleMouseOver} on:keydown={onBlur} on:blur={onBlur} on:focus={onFocus} class="px-5 my-5 sm:h-48 md:h-64 hover:scale-105 transition active:scale-95 select-none" src={colour} alt=""> -->
-        
-        <img width="762" height="256"
+
+        <img
+          width="762"
+          height="256"
           class="px-5 my-5 sm:h-48 md:h-64 hover:scale-105 transition active:scale-95 select-none"
           src="/base/move-machines.webp"
           alt="3 retro machines in a svg vector format"
@@ -107,7 +108,8 @@
     <div class="flex justify-center">
       <a
         class="text-gray-800 bg-white border-myblue border-gray-300 text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
-        href="#scrolldown-ideas" on:click|preventDefault={scrollIntoView}
+        href="#scrolldown-ideas"
+        on:click|preventDefault={scrollIntoView}
       >
         Ideas I've brought to life</a
       >
@@ -188,18 +190,18 @@
     </div>
   </MarqueeTextWidget>
 
-  <div id="scrolldown-ideas" class="flex sm:flex-row flex-col justify-center mt-5 mx-5">
-    <img class="sm:w-1/6 w-1/4 " src="/base/move-macintosh.webp" alt="" />
+  <div
+    id="scrolldown-ideas"
+    class="flex sm:flex-row flex-col justify-center mt-5 mx-5"
+  >
+    <img class="sm:w-1/6 w-1/4" src="/base/move-macintosh.webp" alt="" />
     <span class="grid content-center">
       <span>
-        <h3  class="text-3xl">Ideas I've Brought to Life!</h3>
+        <h3 class="text-3xl">Ideas I've Brought to Life!</h3>
         <p class="texl-base">Powered by Code and Creativity</p>
-        
       </span>
     </span>
   </div>
-
-  
 
   <!-- <div class="container mx-auto my-12">
    
@@ -253,48 +255,57 @@
   </div> -->
 
   <DisplayProject
-  img_src = '/project/grace/thumbnail.png'
-  img_alt = 'project: The Grace Company work: UX, UI & Web Development'
-  extra_string = 'Web Design / Web Development / UX Design / UI Design / Branding'
-  title_string = 'The Grace Company'
-  desc_string = "In this project, I undertook the mission to enhance and modernize The
+    img_src="/project/autosew/thumbnail.webp"
+    img_alt="project: The Grace Company work: UX, UI & Web Development"
+    extra_string="iOS / UX Design / UX Research/ UI Design"
+    title_string="AutoSew Software"
+    desc_string="In this project, I'd designed the UI of a quilting/sewing software. I was given the chance to conduct user research, delve into UX design, and ultimately visualize what the software could become."
+    link_href="/work/project-autosew"
+    btn_string="View Case Study"
+    option_char="R"
+    is_disable="false"
+  />
+
+  <DisplayProject
+    img_src="/project/grace/thumbnail.png"
+    img_alt="project: The Grace Company work: UX, UI & Web Development"
+    extra_string="Web Design / Web Development / UX Design / UI Design / Branding"
+    title_string="The Grace Company"
+    desc_string="In this project, I undertook the mission to enhance and modernize The
   Grace Company's website, aligning it with contemporary design trends.
   By implementing a cohesive design system, the website underwent a
   transformation that not only resulted in increased sales but also
   positioned the company as a cutting-edge leader in the quilting
   machine and frame industry."
-  link_href = '/work/project-grace'
-  btn_string = 'View Case Study'
-  option_char = "L"
-  is_disable = false
+    link_href="/work/project-grace"
+    btn_string="View Case Study"
+    option_char="L"
+    is_disable="false"
   />
 
   <DisplayProject
-  img_src = '/project/toys/thumbnail.webp'
-  img_alt = 'project: The Grace Company work: UX, UI & Web Development'
-  extra_string = 'Web Design / UI Design'
-  title_string = 'Incredibly Interconnectable Toys'
-  desc_string = "In this project, my main focus was to redesign the website for Incredibly Interconnectable Toys, infusing it with a fresh and captivating aesthetic. The aim was to provide an enhanced user experience, enticing visitors to explore the world of toys in a unique and engaging way. "
-  link_href = '/work/project-iit'
-  btn_string = 'View Design'
-  option_char = "R"
-  is_disable = 'true'
+    img_src="/project/toys/thumbnail.webp"
+    img_alt="project: The Grace Company work: UX, UI & Web Development"
+    extra_string="Web Design / UI Design"
+    title_string="Incredibly Interconnectable Toys"
+    desc_string="In this project, my main focus was to redesign the website for Incredibly Interconnectable Toys, infusing it with a fresh and captivating aesthetic. The aim was to provide an enhanced user experience, enticing visitors to explore the world of toys in a unique and engaging way. "
+    link_href="/work/project-iit"
+    btn_string="View Design"
+    option_char="R"
+    is_disable="true"
   />
 
   <DisplayProject
-  img_src = '/project/agawa/thumbnail.webp'
-  img_alt = 'agawa thumbnail - japanese restaurant website'
-  extra_string = 'Web Design / UI Design / Branding'
-  title_string = 'Agawa'
-  desc_string = "In this project, I am designing a visually captivating and user-friendly website for a Japanese restaurant, with a focus on expanding their customer base by accommodating both English and Japanese languages. The primary goal is to create an immersive online experience that reflects the rich cultural heritage of Japan while ensuring seamless navigation and functionality for visitors."
-  link_href = '/work/project-agawa'
-  btn_string = 'View Design'
-  option_char = "L"
-  is_disable = "true"
+    img_src="/project/agawa/thumbnail.webp"
+    img_alt="agawa thumbnail - japanese restaurant website"
+    extra_string="Web Design / UI Design / Branding"
+    title_string="Agawa"
+    desc_string="In this project, I am designing a visually captivating and user-friendly website for a Japanese restaurant, with a focus on expanding their customer base by accommodating both English and Japanese languages. The primary goal is to create an immersive online experience that reflects the rich cultural heritage of Japan while ensuring seamless navigation and functionality for visitors."
+    link_href="/work/project-agawa"
+    btn_string="View Design"
+    option_char="L"
+    is_disable="true"
   />
-
-
-
 </div>
 
 <style>
