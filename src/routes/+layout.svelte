@@ -43,7 +43,9 @@
   <link rel="icon" type="image/svg" href="/base/mikesenh_logo-dark.webp" />
 </svelte:head>
 
-<div class="bg-macbook">
+
+
+<div class="bg-grid">
   <div class="">
     <div>
       <nav
@@ -510,4 +512,15 @@
   [mac-tooltip][flow^="right"]:hover::after {
     animation: tooltips-horz 300ms ease-out forwards;
   }
+
+  .bg-grid {
+ 
+    height: 100%;
+  width: 100%;
+  background-image: radial-gradient(#e4e6ea 1px, transparent 1px);
+  background-size: 16px 16px;
+  
+  
+}
+
 </style>
