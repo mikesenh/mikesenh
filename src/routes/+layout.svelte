@@ -45,7 +45,7 @@
 
 
 
-<div class="bg-grid">
+<div class="bg-macbook">
   <div class="">
     <div>
       <nav
@@ -513,14 +513,14 @@
     animation: tooltips-horz 300ms ease-out forwards;
   }
 
-  .bg-grid {
+  /* .bg-grid {
  
     height: 100%;
   width: 100%;
-  background-image: radial-gradient(rgb(245, 245, 247) 1px, transparent 1px);
+  background-image: radial-gradient(rgb(255, 255, 255) 1px, transparent 1px);
   background-size: 16px 16px;
   
   
-}
+} */
 
 </style>
