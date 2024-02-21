@@ -20,8 +20,6 @@
 </script>
 
 <svelte:window bind:innerWidth />
-<!-- {slideShowing}
-{innerWidth} -->
 
 <div class="flex justify-center">
   <span>
@@ -62,13 +60,7 @@
         >Next</button
       >
     </div>
-<!-- 
-  * I was here
-	? what happen
-	TODO: DO THIS!
-	! What going on here!
-	% sadasdasd s
-	 -->
+
     <SplideTrack>
       <SplideSlide>
         <div
