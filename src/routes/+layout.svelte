@@ -515,6 +515,8 @@
 
   /* .bg-grid {
  
+/*
+  .bg-grid {
     height: 100%;
   width: 100%;
   background-image: radial-gradient(rgb(255, 255, 255) 1px, transparent 1px);
@@ -522,5 +524,7 @@
   
   
 } */
+}
+*/
 
 </style>
