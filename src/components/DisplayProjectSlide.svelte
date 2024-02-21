@@ -33,13 +33,7 @@ class="group hover:scale-105 transition bg-white p-5 rounded-2xl drop-shadow-xl 
       src={img_src}
       alt={img_alt}
     />
-    <div class="img-overlay">
-      <div class="img-click-content mt-2">
-        <div class="flex justify-center mb-3">
-          <img class="" src="/base/icons/eye-icon.svg" alt="" />
-        </div>
-      </div>
-    </div>
+   
   </div>
 </a>
 </div>
