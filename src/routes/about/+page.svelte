@@ -117,13 +117,8 @@
     <div class="basis-2/3 mr-5">
       <h2 class="text-5xl font-bold mb-3">My Core Values:</h2>
       <p class="text-lg mb-5">
-        In essences, I value doing good work with a focusing on creating quality
-        product, to imporvements systems and being a driving force that turn
-        your ideas into reality!
-        <!-- Positivity keeps us going,
-Education keeps me growing,
-Craftsmanship is gold,
-Results ensures my impact is told. -->
+        In essence, I value doing good work that focuses on creating high-quality products, improving systems, and serving as a driving force to turn your ideas into reality.
+
       </p>
     </div>
 

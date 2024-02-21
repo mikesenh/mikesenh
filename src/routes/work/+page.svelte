@@ -1,4 +1,6 @@
 <script>
+  import DisplayProjectSlide from "../../components/DisplayProjectSlide.svelte";
+
   import "../../app.css";
 
   import { Splide, SplideSlide, SplideTrack } from "@splidejs/svelte-splide";
@@ -18,8 +20,6 @@
 </script>
 
 <svelte:window bind:innerWidth />
-<!-- {slideShowing}
-{innerWidth} -->
 
 <div class="flex justify-center">
   <span>
@@ -60,13 +60,7 @@
         >Next</button
       >
     </div>
-<!-- 
-  * I was here
-	? what happen
-	TODO: DO THIS!
-	! What going on here!
-	% sadasdasd s
-	 -->
+
     <SplideTrack>
       <SplideSlide>
         <div
@@ -107,42 +101,15 @@
         </div>
       </SplideSlide>
       <SplideSlide>
-        <div
-          class="group hover:scale-105 transition bg-white p-5 rounded-xl drop-shadow-xl m-3 mb-12"
-        >
-          <div class="flex justify-between">
-            <span>
-              <p class="text-lg">Case Study</p>
-              <h2 class="text-2xl font-semibold ">Design Process</h2>
-            </span>
-            <button class="transition scale-110 hover:scale-125">
-              <img
-                class="transition-color border-greyblack border-[3px] rounded-full p-1 "
-                src="/base/icons/upward-arrow.svg"
-                alt=""
-              /></button
-            >
-          </div>
-          <p class="text-base border-t-[3px] py-3 mt-3 border-appleblue ">
-            Donec rutrum congue leo eget malesuada.
-          </p>
-          <a href="/">
-            <div class="img-click-container transition  hover:scale-100">
-              <img
-                class="rounded-2xl w-full img-click-image"
-                src="/base/air.png"
-                alt=""
-              />
-              <div class="img-overlay">
-                <div class="img-click-content mt-2">
-                  <div class="flex justify-center mb-3">
-                    <img class="" src="/base/icons/eye-icon.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
+        
+        <DisplayProjectSlide
+    img_src="/project/autosew/thumbnail.webp"
+    img_alt="project: The Grace Company work: UX, UI & Web Development"
+    extra_string="iOS / UX Design / UX Research/ UI Design"
+    title_string="AutoSew Software"
+    desc_string="In this project, I'd designed the UI of a quilting/sewing software. I was given the chance to conduct user research, delve into UX design, and ultimately visualize what the software could become."
+    link_href="/work/project-autosew"
+  />
       </SplideSlide>
       <SplideSlide>
         <div
