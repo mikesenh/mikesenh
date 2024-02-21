@@ -45,7 +45,7 @@
 
 
 
-<div class="bg-grid">
+<div class="bg-macbook">
   <div class="">
     <div>
       <nav
