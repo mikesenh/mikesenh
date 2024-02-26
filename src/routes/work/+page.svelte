@@ -53,7 +53,7 @@
     <div class="flex justify-center space-x-5 my-6 splide__arrows">
       <button
         class="splide__arrow--prev btn-yellow transition focus:translate-y-0 focus:drop-shadow-none hover:-translate-y-1 focus:bg-black hover:shadow-[4px_4px_1px_rgba(0,0,0,0.25)] border-appleyellow text-base border-[3px] px-16 py-1 rounded-3xl uppercase font-semibold"
-        >Return</button
+        >Prev</button
       >
       <button
         class="splide__arrow--next btn-blue transition hover:-translate-y-1 hover:shadow-[4px_4px_1px_rgba(0,0,0,0.25)] border-appleblue text-base border-[3px] px-16 py-1 rounded-3xl uppercase font-semibold"
@@ -63,93 +63,61 @@
 
     <SplideTrack>
       <SplideSlide>
-        <div
-          class="group hover:scale-105 transition bg-white p-5 rounded-2xl drop-shadow-xl m-3 mb-12"
-        >
-          <div class="flex justify-between">
-            <span>
-              <p class="text-lg">Case Study</p>
-              <h2 class="text-2xl font-semibold ">Design Process</h2>
-            </span>
-            <button class="transition scale-110 hover:scale-125">
-              <img
-                class="transition-color border-greyblack border-[3px] rounded-full p-1 "
-                src="/base/icons/upward-arrow.svg"
-                alt=""
-              /></button
-            >
-          </div>
-          <p class="text-base border-t-[3px] py-3 mt-3 border-appleblue ">
-            Donec rutrum congue leo eget malesuada.
-          </p>
-          <a href="/">
-            <div class="img-click-container transition  hover:scale-100">
-              <img
-                class="rounded-2xl w-full img-click-image"
-                src="/base/air.png"
-                alt=""
-              />
-              <div class="img-overlay">
-                <div class="img-click-content mt-2">
-                  <div class="flex justify-center mb-3">
-                    <img class="" src="/base/icons/eye-icon.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
+        
+        <DisplayProjectSlide
+    img_src="/project/toys/thumbnail.webp"
+    img_alt="project: The Grace Company work: UX, UI & Web Development"
+    extra_string="Web Design"
+    title_string="Incredibly Interconnectable Toys"
+    desc_string="In this project, my main focus was to redesign the website for Incredibly Interconnectable Toys, infusing it with a fresh and captivating aesthetic. The aim was to provide an enhanced user experience, enticing visitors to explore the world of toys in a unique and engaging way. "
+    link_href="/work/project-iit"
+  />
       </SplideSlide>
       <SplideSlide>
-        
+        <DisplayProjectSlide
+    img_src="/project/grace/thumbnail.png"
+    img_alt="project: The Grace Company work: UX, UI & Web Development"
+    extra_string="Web Development & Design"
+    title_string="The Grace Company"
+    desc_string="In this project, I undertook the mission to enhance and modernize The
+  Grace Company's website, aligning it with contemporary design trends.
+  By implementing a cohesive design system, the website underwent a
+  transformation that not only resulted in increased sales but also
+  positioned the company as a cutting-edge leader in the quilting
+  machine and frame industry."
+    link_href="/work/project-grace"
+    btn_string="View Case Study"
+    option_char="L"
+    is_disable="false"
+  />
+      </SplideSlide>
+
+      <SplideSlide>
+        <DisplayProjectSlide
+    img_src="/project/agawa/thumbnail.webp"
+    img_alt="agawa thumbnail - japanese restaurant website"
+    extra_string="Web Design / UI Design / Branding"
+    title_string="Agawa"
+    desc_string="In this project, I am designing a visually captivating and user-friendly website for a Japanese restaurant, with a focus on expanding their customer base by accommodating both English and Japanese languages. The primary goal is to create an immersive online experience that reflects the rich cultural heritage of Japan while ensuring seamless navigation and functionality for visitors."
+    link_href="/work/project-agawa"
+    btn_string="View Design"
+    option_char="L"
+    is_disable="true"
+  />
+      </SplideSlide>
+      <SplideSlide>
         <DisplayProjectSlide
     img_src="/project/autosew/thumbnail.webp"
     img_alt="project: The Grace Company work: UX, UI & Web Development"
-    extra_string="iOS / UX Design / UX Research/ UI Design"
+    extra_string="UX/UI Design"
     title_string="AutoSew Software"
     desc_string="In this project, I'd designed the UI of a quilting/sewing software. I was given the chance to conduct user research, delve into UX design, and ultimately visualize what the software could become."
     link_href="/work/project-autosew"
   />
       </SplideSlide>
-      <SplideSlide>
-        <div
-          class="group hover:scale-105 transition bg-white p-5 rounded-xl drop-shadow-xl m-3 mb-12"
-        >
-          <div class="flex justify-between">
-            <span>
-              <p class="text-lg">Case Study</p>
-              <h2 class="text-2xl font-semibold ">Design Process</h2>
-            </span>
-            <button class="transition scale-110 hover:scale-125">
-              <img
-                class="transition-color border-greyblack border-[3px] rounded-full p-1 "
-                src="/base/icons/upward-arrow.svg"
-                alt=""
-              /></button
-            >
-          </div>
-          <p class="text-base border-t-[3px] py-3 mt-3 border-appleblue ">
-            Donec rutrum congue leo eget malesuada.
-          </p>
-          <a href="/">
-            <div class="img-click-container transition  hover:scale-100">
-              <img
-                class="rounded-2xl w-full img-click-image"
-                src="/base/air.png"
-                alt=""
-              />
-              <div class="img-overlay">
-                <div class="img-click-content mt-2">
-                  <div class="flex justify-center mb-3">
-                    <img class="" src="/base/icons/eye-icon.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </SplideSlide>
+
     </SplideTrack>
+    
   </Splide>
 </div>
 
@@ -219,7 +187,7 @@
     filter: none;
   }
 
-  .img-click-container {
+  /* .img-click-container {
     position: relative;
     width: 100%;
   }
@@ -228,7 +196,7 @@
     display: block;
     width: 100%;
     height: auto;
-  }
+  } */
 
   /* .img-overlay {
     position: absolute;
@@ -248,7 +216,7 @@
     opacity: 1;
   } */
 
-  .img-click-content {
+  /* .img-click-content {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -258,5 +226,5 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+  } */
 </style>
