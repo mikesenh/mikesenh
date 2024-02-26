@@ -30,10 +30,10 @@
           About Me ( Michael Tran ) ✨
         </h1>
         <p class="text-xl">
-          I always have had a love of drawing and creating art, a passion that has instilled in me a genuine joy for imagining and creating things. However despite my love of the craft, I grew up in a family that wasn't supportive and because of that I pursued a science based degree, but I always had that calling for design, which made me work twice as hard and I've realized that I can't do both, so I have committed to following my dreams and passions while I still can.
+          I've always had a love for drawing and creating art—a passion that has instilled in me a genuine joy for imagining and bringing things to life. However, despite my love for the craft, I grew up in a family that wasn't supportive. Consequently, I pursued a science-based degree. Nonetheless, the calling for design persisted within me, prompting me to work twice as hard. Over time, I've come to realize that I can't balance both paths, leading me to commit fully to following my dreams and passions while I still can.
         </p>
         <p class="text-xl mt-3">
-          Give me a chance? I won't let you down!
+          Give me a chance, and I won't let you down!
         </p>
       </span>
 
@@ -120,7 +120,7 @@
     <div class="basis-2/3 mr-5">
       <h2 class="text-4xl font-bold mb-3">My Core Values:</h2>
       <p class="text-lg mb-5">
-        In essence, I value doing good work that focuses on creating high-quality products, improving systems, and serving as a driving force to turn your ideas into reality.
+        In essence, I prioritize delivering high-quality work, focusing on creating exceptional products, enhancing systems, and acting as a driving force to transform your ideas into reality.
 
       </p>
     </div>
@@ -136,9 +136,7 @@
           >
         </div>
         <p class="py-3 text-lg">
-          I believe in being a good influence and making a positive impact in
-          everything that I do. I believe a positive impact will lead to high
-          quality work, for everyone involved.
+          I believe in being a positive influence and making a meaningful impact in everything that I do. I'm confident that fostering a positive environment will result in high-quality work for everyone involved.
         </p>
       </div>
 
@@ -152,9 +150,7 @@
           >
         </div>
         <p class="py-3 text-lg">
-          I’m an academic at heart, I seek to find and understand things, I find
-          fulfillment in acquiring new skills and knowledge, to prepare myself
-          for the challenges of the future.
+          I'm an academic at heart, driven to discover and understand things. I find fulfillment in acquiring new skills and knowledge to prepare myself for the challenges of the future.
         </p>
       </div>
 
@@ -172,9 +168,7 @@
           >
         </div>
         <p class="py-3 text-lg">
-          I strive for execellence in everything that I do, with careful
-          consideration, improvement and maintenance. I'm dedicated to producing
-          high-quality work that you'll love.
+          I strive for excellence in everything that I do, approaching tasks with careful consideration, a commitment to continuous improvement, and diligent maintenance. I am dedicated to producing high-quality work that you'll love.
         </p>
       </div>
 
@@ -188,9 +182,7 @@
           >
         </div>
         <p class="py-3 text-lg">
-          I'm organized and proficient at managing my time, I’ll send updates,
-          keep a log of daily duties, track tasks and overall make sure
-          everything is done in a timely manner. Insuring sucess!
+          I'm organized and proficient at managing my time. I'll send updates, maintain a log of daily duties, track tasks, and overall ensure that everything is done in a timely manner, ensuring success!
         </p>
       </div>
     </div>
