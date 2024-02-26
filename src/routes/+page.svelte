@@ -26,17 +26,17 @@
       case 1:
         headline = "Hello! I'm Michael Tran.";
         subheading =
-          "I create website so cool, even penguins will want to surf them! 🐧";
+          "I create websites that are so cool, even penguins will want to surf on them! 🐧";
         break;
       case 2:
         headline = "Hi! I'm Michael Tran.";
         subheading =
-          "Welcome to my corner of the web! where I showcase what I've designed or developed. 🍵";
+          "Welcome to my corner of the web, where I showcase what I've designed or developed. 🍵";
         break;
       case 3:
         headline =
           "Greatings! I'm Michael Tran.";
-        subheading = "...and I’m passionate about developing & designing digital products package with an amazing experiences. ✨";
+        subheading = "...and I’m passionate about developing and designing digital products packaged with amazing experiences. ✨";
         break;
     }
   }
@@ -144,8 +144,7 @@
             />
           </h2>
           <p class="mb-2">
-            If you have a vision, I can bring it to life by prototype every idea
-            down to the looks, feels and functions!
+            If you have a vision, I can bring it to life by prototyping every idea, down to the looks, feels, and functions!
           </p>
         </span>
       </div>
@@ -163,8 +162,7 @@
             />
           </h2>
           <p class="mb-2">
-            If you already have a website rest assure I can keep it in good
-            shape, you can count on me to keep everything straight!
+            If you already have a website, rest assured that I can keep it in good shape. You can count on me to keep everything straight!
           </p>
         </span>
       </div>
@@ -176,14 +174,13 @@
           <h2 class="flex justify-between text-2xl font-semibold">
             <span class="self-center mr-3 mb-2"> Web Developement </span>
             <img
-              class="h-12 mb-3 mb-2"
+              class="h-12 mb-2"
               src="/base/icons/computational-coder.webp"
               alt=""
             />
           </h2>
           <p class="mb-2">
-            If you're in the market for a handcrafted websites, with features
-            that go beyond a typical website, I might be you're guy!
+            If you're in the market for handcrafted websites with features that go beyond a typical website, I might be your guy!
           </p>
         </span>
       </div>
@@ -212,37 +209,37 @@
       img_src = '/home/why_me_1.webp'
       img_alt = 'User Experience Design graphic'
       title_string = 'User Experience Design'
-      extra_string = "I focus on crafting meaningful user experiences, giving you designs that prioritize user satisfaction."
+      extra_string = "I focus on crafting meaningful user experiences, providing you with designs that prioritize user satisfaction."
       />
       <WhyMeBlock
       img_src = '/home/why_me_2.webp'
       img_alt = 'Conversion Optimization graphic'
       title_string = 'Conversion Optimization'
-      extra_string = "I’ve studied the ways to convert a visitor into a customer, giving you more revenue!"
+      extra_string = "I've studied the methods to convert a visitor into a customer, aiming to boost your revenue!"
       />
       <WhyMeBlock
       img_src = '/home/why_me_3.webp'
       img_alt = 'Responsive Design graphic'
       title_string = 'Responsive Design'
-      extra_string = "I specialize in creating digital products that effortlessly adapt to any device, for a seamless experience."
+      extra_string = "I specialize in creating digital products that effortlessly adapt to any device, ensuring a seamless experience."
       />
       <WhyMeBlock
       img_src = '/home/why_me_4.webp'
       img_alt = 'Multiple Generative Variations graphic'
       title_string = 'Multiple Generative Variations'
-      extra_string = "I am committed to ensuring your satisfaction with my work by providing you with a variety of options to choose from!"
+      extra_string = "I am committed to ensuring your satisfaction with my work by offering you a variety of options to choose from!"
       />
       <WhyMeBlock
       img_src = '/home/why_me_5.webp'
       img_alt = 'Search Engine Optimized graphic'
       title_string = 'Search Engine Optimized'
-      extra_string = "I integrate SEO strategies into my designs, providing you with a high-ranking website."
+      extra_string = "I integrate SEO strategies into my designs, ensuring you have a high-ranking website."
       />
       <WhyMeBlock
       img_src = '/home/why_me_6.webp'
       img_alt = 'One-Stop-Shop Solutions graphic'
       title_string = 'One-Stop-Shop Solutions'
-      extra_string = "I offer all-inclusive design services and ongoing support, just let me know."
+      extra_string = "I offer all-inclusive design services and ongoing support. Just let me know!"
       />
   </span>
 
