@@ -4,6 +4,7 @@
   import { onMount } from "svelte";
   import DisplayProject from "../components/DisplayProject.svelte";
   import NoDisplayProject from "../components/NoDisplayProject.svelte";
+  import WhyMeBlock from "../components/WhyMeBlock.svelte";
   let touchMarquee = false;
   function marqueePause() {
     touchMarquee = true;
@@ -23,19 +24,19 @@
 
     switch (randomNumber) {
       case 1:
-        headline = "Your one-stop-shop for top-notch handcrafted websites!";
+        headline = "Hello! I'm Michael Tran.";
         subheading =
-          "Bringing your vision to life with expertly designed interfaces and compelling content.";
+          "I create website so cool, even penguins will want to surf them! 🐧";
         break;
       case 2:
-        headline = "Groovy web development for the modern era.";
+        headline = "Hi! I'm Michael Tran.";
         subheading =
-          "Get Your Site Looking Just Right, With Design That's Out of Sight!";
+          "Welcome to my corner of the web! where I showcase what I've designed or developed. 🍵";
         break;
       case 3:
         headline =
-          "Create a Websites So Cool, Even Penguins Will Want to Surf Them~";
-        subheading = "Your Website, Your Rules, My Expertise!";
+          "Greatings! I'm Michael Tran.";
+        subheading = "...and I’m passionate about developing & designing digital products package with an amazing experiences. ✨";
         break;
     }
   }
@@ -88,7 +89,7 @@
       </button>
     </div>
 
-    <h1 class="text-center md:text-4xl text-3xl font-bold select-none">
+    <h1 class="text-center md:text-4xl text-3xl mt-3 font-bold select-none">
       ‎ ‎
       <Typewriter mode="loopOnce" cursor={false} element="span">
         <span>
@@ -97,7 +98,7 @@
       </Typewriter>
     </h1>
 
-    <p class="text-center text-xl my-5 select-none">
+    <p class="text-center text-xl mb-5 mt-3 select-none">
       ‎ ‎
       <Typewriter mode="loopOnce" cursor={false} delay={2000} element="span">
         <span>
@@ -108,10 +109,9 @@
     <div class="flex justify-center">
       <a
         class="text-gray-800 bg-white border-myblue border-gray-300 text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
-        href="#scrolldown-ideas"
-        on:click|preventDefault={scrollIntoView}
+        href="/work"
       >
-        Ideas I've brought to life</a
+        My Work</a
       >
     </div>
   </div>
@@ -189,8 +189,64 @@
       </div>
     </div>
   </MarqueeTextWidget>
+</div>
+
+   <div
+    class="flex sm:flex-row flex-col justify-center mt-5"
+  >
+    
+    <span class="grid content-center mt-10">
+      <span>
+        <h3 class="text-4xl text-center font-bold mb-2">Reasons to Bring Me Onboard</h3>
+        <p class="text-xl text-center mb-4">Knowledge / Specialization</p>
+      </span>
+    </span>
+  </div>
 
   <div
+    class="flex sm:flex-row flex-col justify-center mt-5 2xl:mx-52 lg:mx-48 md:mx-32 mx-10 my-5 mb-12"
+  >
+    
+    <span class="grid content-center 2xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-12 mx-5">
+      <WhyMeBlock
+      img_src = '/home/why_me_1.webp'
+      img_alt = 'User Experience Design graphic'
+      title_string = 'User Experience Design'
+      extra_string = "I focus on crafting meaningful user experiences, giving you designs that prioritize user satisfaction."
+      />
+      <WhyMeBlock
+      img_src = '/home/why_me_2.webp'
+      img_alt = 'Conversion Optimization graphic'
+      title_string = 'Conversion Optimization'
+      extra_string = "I’ve studied the ways to convert a visitor into a customer, giving you more revenue!"
+      />
+      <WhyMeBlock
+      img_src = '/home/why_me_3.webp'
+      img_alt = 'Responsive Design graphic'
+      title_string = 'Responsive Design'
+      extra_string = "I specialize in creating digital products that effortlessly adapt to any device, for a seamless experience."
+      />
+      <WhyMeBlock
+      img_src = '/home/why_me_4.webp'
+      img_alt = 'Multiple Generative Variations graphic'
+      title_string = 'Multiple Generative Variations'
+      extra_string = "I am committed to ensuring your satisfaction with my work by providing you with a variety of options to choose from!"
+      />
+      <WhyMeBlock
+      img_src = '/home/why_me_5.webp'
+      img_alt = 'Search Engine Optimized graphic'
+      title_string = 'Search Engine Optimized'
+      extra_string = "I integrate SEO strategies into my designs, providing you with a high-ranking website."
+      />
+      <WhyMeBlock
+      img_src = '/home/why_me_6.webp'
+      img_alt = 'One-Stop-Shop Solutions graphic'
+      title_string = 'One-Stop-Shop Solutions'
+      extra_string = "I offer all-inclusive design services and ongoing support, just let me know."
+      />
+  </span>
+
+  <!-- <div
     id="scrolldown-ideas"
     class="flex sm:flex-row flex-col justify-center mt-5 mx-5"
   >
@@ -201,7 +257,7 @@
         <p class="texl-base">Powered by Code and Creativity</p>
       </span>
     </span>
-  </div>
+  </div> -->
 
   <!-- <div class="container mx-auto my-12">
    
@@ -254,7 +310,7 @@
     </div>
   </div> -->
 
-  <DisplayProject
+  <!-- <DisplayProject
     img_src="/project/autosew/thumbnail.webp"
     img_alt="project: The Grace Company work: UX, UI & Web Development"
     extra_string="iOS / UX Design / UX Research/ UI Design"
@@ -305,7 +361,7 @@
     btn_string="View Design"
     option_char="L"
     is_disable="true"
-  />
+  /> -->
 </div>
 
 <style>

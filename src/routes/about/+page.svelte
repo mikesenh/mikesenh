@@ -27,24 +27,25 @@
         <h1
           class="border-b-4 border-appleblue text-3xl font-semibold py-5 mb-5"
         >
-          Meet Mike Tran, The Web Wizard 🔮 ~!
+          About Me ( Michael Tran ) ✨
         </h1>
-        <p class="text-2xl">
-          If you’re seeking a someone who can creativity craft websites that
-          goes above and beyond the call to action, that push the limits of
-          technology and ensuring an everlasting quality, I might be you’re guy!
+        <p class="text-xl">
+          I always have had a love of drawing and creating art, a passion that has instilled in me a genuine joy for imagining and creating things. However despite my love of the craft, I grew up in a family that wasn't supportive and because of that I pursued a science based degree, but I always had that calling for design, which made me work twice as hard and I've realized that I can't do both, so I have committed to following my dreams and passions while I still can.
+        </p>
+        <p class="text-xl mt-3">
+          Give me a chance? I won't let you down!
         </p>
       </span>
 
-      <p class="text-xl">
+      <p class="text-xl text-left">
         <br />
         <a
-          class="hover:text-appleblue"
+          class="hover:text-appleblue underline"
           href="https://www.linkedin.com/in/michael-tran-20462112a/">LinkedIn</a
         >
         |
         <a
-          class="hover:text-appleblue"
+          class="hover:text-appleblue underline"
           href="/about/Michael Tran Resume_CV.pdf">Resume</a
         >
       </p>
@@ -62,6 +63,8 @@
     alt="arrow pointing down to learn more about me!"
   />
 </div>
+
+
 
 <!--
 <button on:click={() => (pauseOnHover = !pauseOnHover)}> 
@@ -115,7 +118,7 @@
 >
   <div class="flex flex-col lg:flex-row md:flex-col">
     <div class="basis-2/3 mr-5">
-      <h2 class="text-5xl font-bold mb-3">My Core Values:</h2>
+      <h2 class="text-4xl font-bold mb-3">My Core Values:</h2>
       <p class="text-lg mb-5">
         In essence, I value doing good work that focuses on creating high-quality products, improving systems, and serving as a driving force to turn your ideas into reality.
 
@@ -231,7 +234,7 @@
 	</div>
 </MarqueeTextWidget> -->
 
-<div
+<!-- <div
   class="mx-5 md:mx-16 lg:mx-16 xl:mx-16 2xl:mx-48 my-12 pb-6 cursor-default"
 >
   <h2 class="text-5xl font-semibold text-center">Résumé Summary</h2>
@@ -309,19 +312,19 @@
       /> Resume Download
     </a>
   </div>
-</div>
+</div> -->
 
 <div
-  class="mx-5 md:mx-16 lg:mx-16 xl:mx-16 2xl:mx-10 my-12 pb-6 2xl:mx-48 cursor-default"
+  class="mx-5 md:mx-16 lg:mx-16 xl:mx-16 my-12 pb-6 2xl:mx-48 cursor-default"
 >
-  <h3 class="text-5xl text-center font-semibold">
+  <h3 class="text-4xl text-center font-semibold">
     If you catch me in the wild, I’ll be...
   </h3>
   <p class="text-lg text-center">doing a bunch of stuff, but mostly I’ll be*</p>
-  <div class="grid xl:grid-cols-4 lg:grid-cols-2 grid-cols-2 gap-5 mt-10">
+  <div class="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 mt-10">
     <div>
       <img
-        class=" border-8 border-almostblack rounded-3xl place-self-center mr-5 drop-shadow-2xl rounded-2xl w-full"
+        class=" border-8 border-almostblack rounded-3xl place-self-center mr-5 drop-shadow-2xl w-full"
         src="/about/viet-food.webp"
         alt=""
       />
@@ -330,7 +333,7 @@
 
     <div>
       <img
-        class=" border-8 border-almostblack rounded-3xl place-self-center mr-5 drop-shadow-2xl rounded-2xl w-full"
+        class=" border-8 border-almostblack rounded-3xl place-self-center mr-5 drop-shadow-2xl w-full"
         src="/about/dnd.webp"
         alt=""
       />
@@ -339,7 +342,7 @@
 
     <div>
       <img
-        class=" border-8 border-almostblack rounded-3xl place-self-center mr-5 drop-shadow-2xl rounded-2xl w-full"
+        class=" border-8 border-almostblack rounded-3xl place-self-center mr-5 drop-shadow-2xl w-full"
         src="/about/code.webp"
         alt=""
       />
@@ -348,7 +351,7 @@
 
     <div>
       <img
-        class=" border-8 border-almostblack rounded-3xl place-self-center mr-5 drop-shadow-2xl rounded-2xl w-full"
+        class=" border-8 border-almostblack rounded-3xl place-self-center mr-5 drop-shadow-2xl w-full"
         src="/about/clouds.webp"
         alt=""
       />
@@ -356,6 +359,8 @@
     </div>
   </div>
 </div>
+
+
 
 <style>
   @keyframes -global-from-left {

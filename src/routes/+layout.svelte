@@ -125,10 +125,10 @@
             : 'hidden'}"
         >
           <!-- <a class="text-gray-800 text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-applegreen hover:-translate-y-1 hover:drop-shadow-md transition" href="/home">Blog</a> -->
-          <!-- <a
+          <a
             class="text-gray-800 border-almostwhite bg-white text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
-            href="/work">Work</a
-          > -->
+            href="/work">My Work</a
+          >
 
           <!-- <a class="text-gray-800 hover:text-blue-400" href="/blog">Blogs</a>
 		  <a class="text-gray-800 hover:text-blue-400" href="/contact">Contact US</a> -->
