@@ -24,19 +24,20 @@
 
     switch (randomNumber) {
       case 1:
-        headline = "Hello! I'm Michael Tran.";
+        headline = "Hi, Welcome to My Corner of the Web!";
         subheading =
-          "I create websites that are so cool, even penguins will want to surf on them! 🐧";
+          "I'm a Designer / Developer / Artistian ...and I'm Here to Bring Your Vision to Life!";
         break;
       case 2:
-        headline = "Hi! I'm Michael Tran.";
+        headline = "Hi, Welcome to My Corner of the Web!";
         subheading =
-          "Welcome to my corner of the web, where I showcase what I've designed or developed. 🍵";
+          "I'm a Designer / Developer / Artistian ...and I'm Here to Bring Your Vision to Life!";
         break;
       case 3:
         headline =
-          "Greatings! I'm Michael Tran.";
-        subheading = "...and I’m passionate about developing and designing digital products packaged with amazing experiences. ✨";
+          "Hi, Welcome to My Corner of the Web!";
+        subheading 
+        = "I'm a Designer / Developer / Artistian ...and I'm Here to Bring Your Vision to Life!";
         break;
     }
   }
@@ -111,7 +112,7 @@
         class="text-gray-800 bg-white border-myblue border-gray-300 text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
         href="/work"
       >
-        My Work</a
+        View My Work</a
       >
     </div>
   </div>
@@ -187,6 +188,24 @@
     </div>
   </MarqueeTextWidget>
 </div>
+
+<div
+    class="flex sm:flex-row flex-col justify-center mt-10 2xl:mx-52 lg:mx-48 md:mx-32 mx-10 my-5 mb-12"
+  >
+  <div class="grid content-center  xl:grid-cols-2 sm:grid-cols-1 gap-12 mx-5">
+    <img class="my-auto mx-auto"src="/home/computer_part_art.webp" alt="computer parts made by mikesenh">
+    <div>
+      <h3 class="text-4xl font-bold mb-5">My Qualifications</h3>
+      <h4 class="text-2xl font-semibold mb-3">💾 Programming</h4>
+      <p class="text-lg mb-7">I hold a degree in Computer Science and Information Systems. Proficient in a multitude of coding languages and well-versed in various coding stacks, my paramount skill lies in translating ideas into tangible solutions through code.</p>
+      <h4 class="text-2xl font-semibold mb-3">🎨 Digital Designing</h4>
+      <p class="text-lg"> I am certified in User Experience Design, having delved into the principles that drive user engagement, influence purchasing decisions, and captivate attention. Emphasizing both functionality and purpose-driven aesthetics. I love for crafting meaningful and visually compelling experiences.</p>
+    </div>
+  </div>
+
+  </div>
+
+
 
    <div
     class="flex sm:flex-row flex-col justify-center mt-5"

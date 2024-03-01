@@ -20,7 +20,7 @@
 </script>
 
 {#each items as item, index}
-  <div class="item cursor-pointer p-3 border-b"  on:keydown on:click={() => toggleItem(index)}>
+  <div class="item cursor-pointer p-3 border-white border-b"  on:keydown on:click={() => toggleItem(index)}>
     <h3 class="flex justify-between">{item.question}
     {#if openIndex === index}
     <span>Open</span>
