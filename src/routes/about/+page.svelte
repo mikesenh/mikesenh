@@ -1,4 +1,5 @@
 <script>
+  import Accordion6 from "../../components/Accordion6.svelte";
   import MarqueeTextWidget from "svelte-marquee-text-widget";
   function handleObserver(x) {
     console.info(x.detail.observing);
@@ -352,8 +353,26 @@
   </div>
 </div>
 
+<div
+  class="mx-5 md:mx-16 lg:mx-16 xl:mx-16 my-12 pb-6 2xl:mx-48 cursor-default"
+>
+<h3 class="text-4xl text-center font-semibold">
+  FAQ
+</h3>
+<p class="text-lg text-center">Frequently Asked Questions</p>
 
+<div class="border-8 border-[#6E6E73] rounded-3xl mt-10">
+<Accordion6 
+question_5="What Are Your Salary Expectations?" answer_5="I'm seeking a salary that aligns with industry standards. However, I am open to adjusting my expectations based on the benefits and opportunities your company offers."
+question_4="What Programming Languages do you Know?" answer_4="I am proficient in the three primary web programming languages: HTML, CSS, and JavaScript. Additionally, I have experience with Python and have worked with frameworks such as React, Vue, and Svelte. I particularly enjoy using Svelte due to its simplicity."
+question_3="How do you handle stress and pressure?" answer_3="I effectively manage stress by maintaining a high level of organization. Having a structured approach helps me navigate through challenging situations, knowing that I have the tools and steps to overcome any obstacle."
+question_6="Where do you see yourself in five years?" answer_6="Honestly, I envision myself working for a company that I admire and that values me. Ideally, I'd like to have progressed to a senior-level position within the company."
+question_2="Can you explain your development process?" answer_2="My development process starts with a thorough understanding of project requirements. I break tasks into manageable steps, coding and testing iteratively. Regular feedback from team members is crucial to ensure alignment with project goals before deploying the code"
+question_1="Can you walk us through your design process?" answer_1="I begin my design process by envisioning the overall concept and creating a mood board to capture the project's essence. After sketching and rendering visual concepts, I seek approval for refinement based on feedback. Multiple iterations are conducted until the design reaches its completion, ensuring alignment with the visual representation and project goals."
+/>
+</div>
 
+</div>
 <style>
   @keyframes -global-from-left {
     0% {
