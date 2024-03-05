@@ -5,6 +5,8 @@
   import DisplayProject from "../components/DisplayProject.svelte";
   import NoDisplayProject from "../components/NoDisplayProject.svelte";
   import WhyMeBlock from "../components/WhyMeBlock.svelte";
+  import InfoBoxWithIcon from "../components/InfoBoxWithIcon.svelte";
+  import Accordion6 from "../components/Accordion6.svelte";
   let touchMarquee = false;
   function marqueePause() {
     touchMarquee = true;
@@ -90,7 +92,7 @@
       </button>
     </div>
 
-    <h1 class="text-center md:text-4xl text-3xl mt-3 font-bold select-none">
+    <h1 class="text-center md:text-5xl text-3xl mt-3 font-bold select-none">
       ‎ ‎
       <Typewriter mode="loopOnce" cursor={false} element="span">
         <span>
@@ -108,18 +110,18 @@
       </Typewriter>
     </p>
     <div class="flex justify-center">
-      <a
+      <!-- <a
         class="text-gray-800 bg-white border-myblue border-gray-300 text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
         href="/work"
       >
         View My Work</a
-      >
+      > -->
     </div>
   </div>
 </div>
 
 <!-- bg-[url('/base/bg-transblue-flip.png')] -->
-<div class="my-5">
+<!-- <div class="my-5">
   <MarqueeTextWidget duration={20} repeat={5} paused={touchMarquee}>
     <div
       class="flex mb-7 mt-3"
@@ -187,7 +189,47 @@
       </div>
     </div>
   </MarqueeTextWidget>
+</div> -->
+
+<div class="border-2 border-almostwhite mb-16">
+  
 </div>
+
+<div
+    class="flex sm:flex-row flex-col justify-center 2xl:mx-52 lg:mx-48 md:mx-32 "
+  >
+  <div>
+<h3 class="text-4xl font-bold mb-2 text-center">My Specialties</h3>
+<p class="text-xl text-center">Capabilities / Mastery</p>
+
+</div>
+</div>
+<div
+    class="flex sm:flex-row flex-col justify-center 2xl:mx-52 lg:mx-48 md:mx-32 mx-10 my-5 mb-12"
+  >
+  <div></div>
+  <div class="grid content-center gap-4 xl:grid-cols-3 grid-cols-1 mx-5">
+    <InfoBoxWithIcon title="UX Research" img_src="/base/icons/human-focus-design.webp" words="I chose to specialize in UX research due to my passion for comprehending user and customer behaviors. The abundance of existing literature on UX provides a rich foundation, enabling me to craft unique and impactful solutions."/>
+    <InfoBoxWithIcon title="Web Development" img_src="/base/icons/world_wide_web.webp" words="My programming expertise centers on the World Wide Web, with a focus on fundamental languages like HTML, CSS, and JavaScript. Proficiency in these core languages provides me with the versatility to work with any web related project"/>
+    
+    <InfoBoxWithIcon title="Digital Design" img_src="/base/icons/design_on_laptop.webp" words="This includes a range of design areas such as web design, graphic design, product design, and UI design. However, I must admit I didn't study design in school, but I find it enjoyable to the point where I design things in my free time."/>
+  </div>
+
+  </div>
+
+  <div
+    class="flex justify-center mt-10 2xl:mx-52 lg:mx-48 md:mx-32 mb-20"
+  >
+  <div>
+<a
+        class="text-gray-800 bg-white border-myblue border-gray-300 text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
+        href="/work"
+      >
+        View My Work</a
+      >
+</div>
+</div>
+  
 
 <div
     class="flex sm:flex-row flex-col justify-center mt-10 2xl:mx-52 lg:mx-48 md:mx-32 mx-10 my-5 mb-12"
@@ -195,11 +237,14 @@
   <div class="grid content-center  xl:grid-cols-2 sm:grid-cols-1 gap-12 mx-5">
     <img class="my-auto mx-auto"src="/home/computer_part_art.webp" alt="computer parts made by mikesenh">
     <div>
-      <h3 class="text-4xl font-bold mb-5">My Qualifications</h3>
-      <h4 class="text-2xl font-semibold mb-3">💾 Programming</h4>
-      <p class="text-lg mb-7">I hold a degree in Computer Science and Information Systems. Proficient in a multitude of coding languages and well-versed in various coding stacks, my paramount skill lies in translating ideas into tangible solutions through code.</p>
-      <h4 class="text-2xl font-semibold mb-3">🎨 Digital Designing</h4>
-      <p class="text-lg"> I am certified in User Experience Design, having delved into the principles that drive user engagement, influence purchasing decisions, and captivate attention. Emphasizing both functionality and purpose-driven aesthetics. I love for crafting meaningful and visually compelling experiences.</p>
+      <h3 class="text-4xl font-bold mb-2">Qualifications</h3>
+      <p class="text-xl mb-5">Degrees / Certifications </p>
+      <h4 class="text-2xl font-semibold mb-3">1. Bachelor's in Web Development and UX Design</h4>
+      <p class="text-lg mb-7">I studied Web Development and UX Design at Weber State University, emphasizing mastery of the fundamental programming languages that form the backbone of the web. Beyond this, I delved into the nuanced relationship between psychology and functionality in UX design.</p>
+      <!-- <h4 class="text-2xl font-semibold mb-3">2. Associate in Computer Science & Information Technology</h4>
+      <p class="text-lg mb-7">I earned my Associate Degree at Salt Lake Community College, with a primary focus on computer programming. Additionally, I explored ethical hacking and pursued coursework in general IT support, covering areas such as networking, databases, and infrastructure.</p> -->
+      <h4 class="text-2xl font-semibold mb-3">2. Certified in User Experience Design</h4>
+      <p class="text-lg mb-7">I obtained this Certification at Weber State University. The program equipped me with the skills to understand, research, and unearth solutions to various design challenges. This experience underscored the significance of research in the design process, revealing its pivotal role in creating effective and user-centric solutions.</p>
     </div>
   </div>
 
@@ -220,7 +265,7 @@
   </div>
 
   <div
-    class="flex sm:flex-row flex-col justify-center mt-5 2xl:mx-52 lg:mx-48 md:mx-32 mx-10 my-5 mb-12"
+    class="flex sm:flex-row flex-col justify-center mt-5 2xl:mx-52 lg:mx-48 md:mx-32 mx-10 my-5 mb-20"
   >
     
     <span class="grid content-center 2xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-12 mx-5">
@@ -261,6 +306,7 @@
       extra_string = "I offer all-inclusive design services and ongoing support. Just let me know!"
       />
   </span>
+
 
   <!-- <div
     id="scrolldown-ideas"
@@ -378,6 +424,22 @@
     option_char="L"
     is_disable="true"
   /> -->
+</div>
+
+<div class="2xl:mx-52 lg:mx-48 md:mx-32 my-12 ">
+  <h3 class="text-4xl text-center font-bold mb-2">FAQs</h3>
+  <p class="text-xl text-center mb-4">Frequently Asked Questions</p>
+
+<div class="border-8 border-[#6E6E73] rounded-3xl mt-10">
+<Accordion6
+question_4="Can you explain what you mean by your 'all-inclusive design services'?" answer_4="While not officially listed in my services, I've always harbored a bit of a passion for print design, content creation, and even some copywriting. It might sound a bit unconventional, but I genuinely enjoy these aspects, and if you ever find yourself interested, I'd be more than willing to give it a try!"
+question_3="Can you explain your conversion optimization method?" answer_3="Yes, my conversion optimization method relies on user experience research and psychology. For instance, studies suggest that for a customer to make a significantly expensive purchase, there must be an equally strong emotional connection to the product. How does that happen? Through images, social media influence, and perhaps by adding positive reviews. I ensure that these elements are implemented effectively, leading to a higher conversion rate."
+question_2="How do you ensure my website is SEO-friendly?" answer_2="While I have a comprehensive checklist that guides my approach, the key elements in my conversion optimization strategy include responsive design, optimizing load times, incorporating relevant terms and phrases, adding meta tags, and staying informed about algorithm updates. Understanding the intricacies of algorithms and making necessary site updates is an ongoing process. I'm committed to this continuous improvement, striving to ensure the best possible performance for your website."
+question_1="What platforms or technologies do you use for design?" answer_1="I primarily utilize Figma for web design, UI design, and product design. I find it to be a versatile and effective tool for most of my design needs. However, on occasions that require very specific manipulations, I turn to Adobe, leveraging its unique capabilities for those particular requirements. I also use Affinity as well to save money as the software is very simular to Adobe, but it all depends."
+question_5="Can you explain your development process?" answer_5="My development process starts with a thorough understanding of project requirements. I break tasks into manageable steps, coding and testing iteratively. Regular feedback from team members is crucial to ensure alignment with project goals before deploying the code"
+question_6="Can you walk us through your design process?" answer_6="I begin my design process by envisioning the overall concept and creating a mood board to capture the project's essence. After sketching and rendering visual concepts, I seek approval for refinement based on feedback. Multiple iterations are conducted until the design reaches its completion, ensuring alignment with the visual representation and project goals."
+/>
+</div>
 </div>
 
 <style>
