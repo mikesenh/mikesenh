@@ -217,21 +217,24 @@
 
   </div>
 
-  <div
-    class="flex justify-center mt-10 2xl:mx-52 lg:mx-48 md:mx-32 mb-20"
-  >
-  <div>
-    <div class="hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition">
-<a
-        class="text-gray-800 border-greyblack bg-white text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
-        href="/work"
-      >
-        View My Work</a
-      >
-    </div>
-</div>
-</div>
   
+  <div>
+    
+</div>
+
+<div
+class="flex justify-center mt-10 mb-20"
+>
+<div class="hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition">
+  <a
+          class="text-gray-800 border-greyblack bg-white text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
+          href="/work"
+        >
+          View My Work</a
+        >
+      </div>
+
+      </div>
 
 <div
     class="flex sm:flex-row flex-col justify-center mt-10 mx-5 md:mx-16 lg:mx-16 xl:mx-16 my-12 pb-6 2xl:mx-48 "
