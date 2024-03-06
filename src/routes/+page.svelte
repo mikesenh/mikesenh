@@ -205,14 +205,14 @@
 </div>
 </div>
 <div
-    class="flex sm:flex-row flex-col justify-center 2xl:mx-52 lg:mx-48 md:mx-32 mx-10 my-5 mb-12"
+    class="flex sm:flex-row flex-col justify-center mx-5 md:mx-16 lg:mx-16 xl:mx-16 my-8 2xl:mx-48 "
   >
   <div></div>
   <div class="grid content-center gap-4 xl:grid-cols-3 grid-cols-1 mx-5">
     <InfoBoxWithIcon title="UX Research" img_src="/base/icons/human-focus-design.webp" words="I chose to specialize in UX research due to my passion for comprehending user and customer behaviors. The abundance of existing literature on UX provides a rich foundation, enabling me to craft unique and impactful solutions."/>
     <InfoBoxWithIcon title="Web Development" img_src="/base/icons/world_wide_web.webp" words="My programming expertise centers on the World Wide Web, with a focus on fundamental languages like HTML, CSS, and JavaScript. Proficiency in these core languages provides me with the versatility to work with any web related project"/>
     
-    <InfoBoxWithIcon title="Digital Design" img_src="/base/icons/design_on_laptop.webp" words="This includes a range of design areas such as web design, graphic design, product design, and UI design. However, I must admit I didn't study design in school, but I find it enjoyable to the point where I design things in my free time."/>
+    <InfoBoxWithIcon title="Digital Design" img_src="/base/icons/design_on_laptop.webp" words="I specialize in digital design, encompassing a variety of skills that enable me to bring graphics to life and translate visions into reality. My expertise spans across different design areas, including web design, graphic design, product design, and UI design."/>
   </div>
 
   </div>
@@ -221,18 +221,20 @@
     class="flex justify-center mt-10 2xl:mx-52 lg:mx-48 md:mx-32 mb-20"
   >
   <div>
+    <div class="hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition">
 <a
-        class="text-gray-800 bg-white border-myblue border-gray-300 text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
+        class="text-gray-800 border-greyblack bg-white text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
         href="/work"
       >
         View My Work</a
       >
+    </div>
 </div>
 </div>
   
 
 <div
-    class="flex sm:flex-row flex-col justify-center mt-10 2xl:mx-52 lg:mx-48 md:mx-32 mx-10 my-5 mb-12"
+    class="flex sm:flex-row flex-col justify-center mt-10 mx-5 md:mx-16 lg:mx-16 xl:mx-16 my-12 pb-6 2xl:mx-48 "
   >
   <div class="grid content-center  xl:grid-cols-2 sm:grid-cols-1 gap-12 mx-5">
     <img class="my-auto mx-auto"src="/home/computer_part_art.webp" alt="computer parts made by mikesenh">
@@ -253,7 +255,7 @@
 
 
    <div
-    class="flex sm:flex-row flex-col justify-center mt-5"
+    class="flex sm:flex-row flex-col justify-center mt-5 "
   >
     
     <span class="grid content-center mt-10">
@@ -265,7 +267,7 @@
   </div>
 
   <div
-    class="flex sm:flex-row flex-col justify-center mt-5 2xl:mx-52 lg:mx-48 md:mx-32 mx-10 my-5 mb-20"
+    class="flex sm:flex-row flex-col justify-center mt-5 mb-20 mx-5 md:mx-16 lg:mx-16 xl:mx-16 my-12 pb-6 2xl:mx-48 "
   >
     
     <span class="grid content-center 2xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-12 mx-5">
@@ -426,7 +428,7 @@
   /> -->
 </div>
 
-<div class="2xl:mx-52 lg:mx-48 md:mx-32 my-12 ">
+<div class="mx-5 md:mx-16 lg:mx-16 xl:mx-16 my-12 pb-6 2xl:mx-48 ">
   <h3 class="text-4xl text-center font-bold mb-2">FAQs</h3>
   <p class="text-xl text-center mb-4">Frequently Asked Questions</p>
 
