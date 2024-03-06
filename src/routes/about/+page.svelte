@@ -27,7 +27,7 @@
     >
       <span>
         <h1
-          class="border-b-4 border-appleblue text-3xl font-semibold py-5 mb-5"
+          class="border-b-4 border-appleblue sm:text-3xl font-semibold py-5 mb-5 text-2xl"
         >
           About Me ( Michael Tran ) ✨
         </h1>
