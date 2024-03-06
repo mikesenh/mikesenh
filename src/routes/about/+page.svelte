@@ -23,7 +23,7 @@
       />
     </div>
     <div
-      class="grid content-between p-10 lg:w-1/2 w-100 my-none my-auto cursor-default"
+      class="grid content-between p-1 lg:w-1/2 w-100 my-none my-auto cursor-default"
     >
       <span>
         <h1

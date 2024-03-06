@@ -205,7 +205,7 @@
 </div>
 </div>
 <div
-    class="flex sm:flex-row flex-col justify-center mx-5 md:mx-16 lg:mx-16 xl:mx-16 my-8 2xl:mx-48 "
+    class="flex sm:flex-row flex-col justify-center md:mx-16 lg:mx-16 xl:mx-16 my-8 2xl:mx-48 "
   >
   <div></div>
   <div class="grid content-center gap-4 xl:grid-cols-3 grid-cols-1 mx-5">
@@ -223,9 +223,8 @@
 </div>
 
 <div
-class="flex justify-center mt-10 mb-20"
+class="flex justify-center mt-7 mb-20"
 >
-<div class="hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition">
   <a
           class="text-gray-800 border-greyblack bg-white text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
           href="/work"
@@ -234,7 +233,6 @@ class="flex justify-center mt-10 mb-20"
         >
       </div>
 
-      </div>
 
 <div
     class="flex sm:flex-row flex-col justify-center mt-10 mx-5 md:mx-16 lg:mx-16 xl:mx-16 my-12 pb-6 2xl:mx-48 "
