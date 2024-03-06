@@ -226,7 +226,7 @@
 class="flex justify-center mt-7 mb-20"
 >
   <a
-          class="text-gray-800 border-greyblack bg-white text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
+          class=" text-gray-800 text-center border-greyblack bg-white text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
           href="/work"
         >
           View My Work</a
