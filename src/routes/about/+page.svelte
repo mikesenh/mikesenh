@@ -18,7 +18,7 @@
     <div class=" lg:w-1/2 mr-5 grid content-center w-100 my-5 m-5">
       <img
         class="transition border-8 border-almostblack rounded-3xl place-self-center mr-5 drop-shadow-2xl"
-        src="/about/photo-of-mike.webp"
+        src="/about/photo-of-mike-v7.webp"
         alt=""
       />
     </div>
