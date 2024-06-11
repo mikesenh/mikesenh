@@ -25,6 +25,29 @@
   </div>
 </div>
 
+<div>
+  <div
+    class=" justify-center 2xl:mx-40 xl:mx-20 lg:mx-10 mx-5 md:flex-row flex-col bg-white rounded-xl pt-3 pb-10 px-10 shadow-2xl mb-20 mt-10"
+  >
+   
+    <span class="mt-5 mx-2">
+      <div class=" ">
+        <h3 class="text-3xl font-semibold text-center">
+          View Live Example
+        </h3>
+       
+      </div>
+      <p class="mt-5 mb-2 text-center">I contributed to the design phase of the 'Incredibly Interconnectable Toys' website, but due to creative differences, I wasn't involved in its development. However, I took the initiative to code a mock-up of how I envisioned it to look if I had been part of the development process. You can view the live demonstration of my design. <br> <br>
+        ⚠️ Disclaimer: This is a representation of the homepage only and not a full website. It serves as an example/mock-up of how I would have coded it.</p>
+    </span>
+    <p class="text-center"><a
+      class="text-gray-800 border-almostwhite bg-white text-lg border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
+      href="https://incredibly-interconnectable-toys.vercel.app/">View Mockup</a
+    ></p>
+    
+  </div>
+</div>
+
 <div class="2xl:mx-40 xl:mx-20 lg:mx-10 mx-5 my-20">
     <div class="border-b-4 border-myblue pb-3">
         <h3 class="text-3xl font-semibold">
