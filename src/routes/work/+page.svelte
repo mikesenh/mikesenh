@@ -116,6 +116,17 @@
   />
       </SplideSlide>
 
+      <SplideSlide>
+        <DisplayProjectSlide
+    img_src="/project/jagrock/thumbnail.webp"
+    img_alt="project: jagrock logo design"
+    extra_string="Logo Design / Branding"
+    title_string="Jagrock"
+    desc_string=""
+    link_href="/work/project-jagrock"
+  />
+      </SplideSlide>
+
     </SplideTrack>
     
   </Splide>
