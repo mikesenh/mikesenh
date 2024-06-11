@@ -18,7 +18,7 @@
     <span class="self-start mt-5 pr-10 mx-3">
       <h2 class="text-2xl font-semibold">Services</h2>
       <p class="text-lg">
-        Design<br />
+        Logo Design<br />
         Branding <br />
         <br />
         

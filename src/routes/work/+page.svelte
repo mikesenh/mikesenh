@@ -127,6 +127,17 @@
   />
       </SplideSlide>
 
+      <SplideSlide>
+        <DisplayProjectSlide
+    img_src="/project/janadhi/thumbnail.webp"
+    img_alt="project: janadhi web design"
+    extra_string="Web Design & Branding*"
+    title_string="Janadhi & Company"
+    desc_string=""
+    link_href="/work/project-janadhi"
+  />
+      </SplideSlide>
+
     </SplideTrack>
     
   </Splide>
