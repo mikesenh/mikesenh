@@ -5,7 +5,7 @@
 </script>
 
 <div
-        class="w-100 flex border-4 bg-white select-none border-almostwhite rounded-2xl p-5 hover:hover:scale-105 active:hover:scale-95 hover:drop-shadow-lg transition ease-in-out"
+        class="w-100 flex border-4 bg-white border-almostwhite rounded-2xl p-5 hover:hover:scale-105 active:hover:scale-95 hover:drop-shadow-lg transition ease-in-out"
       >
         <span class="ml-3 mr-3 cursor-default">
           <h2 class="flex justify-between text-2xl font-semibold">

@@ -253,7 +253,8 @@ class="flex justify-center mt-7 mb-20"
 
   </div>
 
-
+  <!--Think About It!-->
+  <!-- <div class="border-2 border-almostwhite mb-8"></div> -->
 
    <div
     class="flex sm:flex-row flex-col justify-center mt-5 "
