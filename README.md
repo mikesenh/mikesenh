@@ -1,38 +1,12 @@
-# create-svelte
+<p align="center">
+  <a href="https://www.mikesenh.com/">
+<img src=https://www.mikesenh.com/base/move-machines.webp/>
+  </a>
+<h3 align="center">🌐 Web Dev : Svelte - 🕹️ Game Dev : Godot - 🎨 Design : Figma - ✏️ Documentation : Notion </h3>
+</p>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+<!--
+<p align="center">
+  01001001 00100111 01101101 00100000 01101101 01100001 01101001 01101110 01101100 01111001 00100000 01101001 01101110 01110100 01100101 01110010 01100101 01110011 01110100 01100101 01100100 00100000 01101001 01101110 00100000 01110100 01100101 01100011 01101000 01101110 01101111 01101100 01101111 01100111 01111001 00100000 01110010 01100101 01101100 01100001 01110100 01100101 01100100 00100000 01110100 01101111 00100000 01110100 01101000 01100101 00100000 01110111 01101111 01110010 01101100 01100100 00100000 01110111 01101001 01100100 01100101 00100000 01110111 01100101 01100010 00100000 01100001 01101110 01100100 00100000 01100011 01101111 01101111 01110000 00100000 01110110 01101001 01100100 01100101 01101111 00100000 01100111 01100001 01101101 01100101 01110011 00101100 00100000 01110011 01101111 00100000 01110100 01101000 01100001 01110100 00100000 01110100 01101000 01100101 00100000 01110011 01100101 01100011 01110010 01100101 01110100 00100000 01110100 01101111 00100000 01110011 01110100 01100001 01110010 01110100 01101001 01101110 01100111 00100000 01100001 00100000 01100011 01101111 01101110 01110110 01100101 01110010 01110011 01100001 01110100 01101001 01101111 01101110 00100000 01110111 01101001 01110100 01101000 00100000 01101101 01100101 00101110
+</p>
+-->
