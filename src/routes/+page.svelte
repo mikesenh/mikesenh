@@ -238,11 +238,11 @@ class="flex justify-center mt-7 mb-20"
     class="flex sm:flex-row flex-col justify-center mt-10 mx-5 md:mx-16 lg:mx-16 xl:mx-16 my-12 pb-6 2xl:mx-48 "
   >
   <div class="grid content-center  xl:grid-cols-2 sm:grid-cols-1 gap-12 mx-5">
-    <img class="my-auto mx-auto"src="/home/computer_part_art.webp" alt="computer parts made by mikesenh">
+    <img class="my-auto mx-auto tilted-animation"src="/home/computer_part_art.webp" alt="computer parts made by mikesenh">
     <div>
       <h3 class="text-4xl font-bold mb-2">Qualifications</h3>
       <p class="text-xl mb-5">Degrees / Certifications </p>
-      <h4 class="text-2xl font-semibold mb-3">1. Bachelor's in Web Development and UX Design</h4>
+      <h4 class="text-2xl font-semibold mb-3 ">1. Bachelor's in Web Development and UX Design</h4>
       <p class="text-lg mb-7">I studied Web Development and UX Design at Weber State University, emphasizing mastery of the fundamental programming languages that form the backbone of the web. Beyond this, I delved into the nuanced relationship between psychology and functionality in UX design.</p>
       <!-- <h4 class="text-2xl font-semibold mb-3">2. Associate in Computer Science & Information Technology</h4>
       <p class="text-lg mb-7">I earned my Associate Degree at Salt Lake Community College, with a primary focus on computer programming. Additionally, I explored ethical hacking and pursued coursework in general IT support, covering areas such as networking, databases, and infrastructure.</p> -->
@@ -579,4 +579,16 @@ question_6="Can you walk us through your design process?" answer_6="I begin my d
     transform: translate(-50%, -50%);
     text-align: center;
   } */
+
+  .tilted-animation {
+    animation: tilted linear forwards;
+    animation-timeline: view();
+    animation-range-start: 0;
+    animation-range-end: 400px;
+  }
+
+  @keyframes tilted {
+    from {scale: .8; opacity:0}
+    to {scale: 1; opacity:1}
+  }
 </style>

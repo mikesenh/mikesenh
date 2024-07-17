@@ -120,14 +120,14 @@
         <DisplayProjectSlide
     img_src="/project/jagrock/thumbnail.webp"
     img_alt="project: jagrock logo design"
-    extra_string="Logo Design / Branding"
-    title_string="Jagrock"
+    extra_string="Logo Design / Branding "
+    title_string="Jagrock Games"
     desc_string=""
     link_href="/work/project-jagrock"
   />
       </SplideSlide>
 
-      <SplideSlide>
+      <!-- <SplideSlide>
         <DisplayProjectSlide
     img_src="/project/janadhi/thumbnail.webp"
     img_alt="project: janadhi web design"
@@ -135,6 +135,17 @@
     title_string="Janadhi & Company"
     desc_string=""
     link_href="/work/project-janadhi"
+  />
+      </SplideSlide> -->
+
+      <SplideSlide>
+        <DisplayProjectSlide
+    img_src="/project/teabean/thumbnail.webp"
+    img_alt="project: teabean package"
+    extra_string="Illustration & Graphic Design"
+    title_string="TeaBean Co - Package Design"
+    desc_string=""
+    link_href="/work/project-teabean"
   />
       </SplideSlide>
 
