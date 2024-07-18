@@ -68,7 +68,7 @@
     img_src="/project/toys/thumbnail.webp"
     img_alt="project: The Grace Company work: UX, UI & Web Development"
     extra_string="Web Design"
-    title_string="Incredibly Interconnectable Toys"
+    title_string="IIT - Website"
     desc_string="In this project, my main focus was to redesign the website for Incredibly Interconnectable Toys, infusing it with a fresh and captivating aesthetic. The aim was to provide an enhanced user experience, enticing visitors to explore the world of toys in a unique and engaging way. "
     link_href="/work/project-iit"
   />
@@ -78,7 +78,7 @@
     img_src="/project/grace/thumbnail.png"
     img_alt="project: The Grace Company work: UX, UI & Web Development"
     extra_string="Web Development & Design"
-    title_string="The Grace Company"
+    title_string="Grace Company - Website"
     desc_string="In this project, I undertook the mission to enhance and modernize The
   Grace Company's website, aligning it with contemporary design trends.
   By implementing a cohesive design system, the website underwent a
@@ -97,7 +97,7 @@
     img_src="/project/agawa/thumbnail.webp"
     img_alt="agawa thumbnail - japanese restaurant website"
     extra_string="Web Design / UI Design / Branding"
-    title_string="Agawa"
+    title_string="Agawa - Logo & Website"
     desc_string="In this project, I am designing a visually captivating and user-friendly website for a Japanese restaurant, with a focus on expanding their customer base by accommodating both English and Japanese languages. The primary goal is to create an immersive online experience that reflects the rich cultural heritage of Japan while ensuring seamless navigation and functionality for visitors."
     link_href="/work/project-agawa"
     btn_string="View Design"
@@ -110,7 +110,7 @@
     img_src="/project/autosew/thumbnail.webp"
     img_alt="project: The Grace Company work: UX, UI & Web Development"
     extra_string="UX/UI Design"
-    title_string="AutoSew Software"
+    title_string="AutoSew - UX/UI "
     desc_string="In this project, I'd designed the UI of a quilting/sewing software. I was given the chance to conduct user research, delve into UX design, and ultimately visualize what the software could become."
     link_href="/work/project-autosew"
   />
@@ -121,7 +121,7 @@
     img_src="/project/jagrock/thumbnail.webp"
     img_alt="project: jagrock logo design"
     extra_string="Logo Design / Branding "
-    title_string="Jagrock Games"
+    title_string="Jagrock Games - Logo"
     desc_string=""
     link_href="/work/project-jagrock"
   />
@@ -143,9 +143,20 @@
     img_src="/project/teabean/thumbnail.webp"
     img_alt="project: teabean package"
     extra_string="Illustration & Graphic Design"
-    title_string="TeaBean Co - Package Design"
+    title_string="TeaBean Co - Logo & Packaging"
     desc_string=""
     link_href="/work/project-teabean"
+  />
+      </SplideSlide>
+
+      <SplideSlide>
+        <DisplayProjectSlide
+    img_src="/project/cbproject/thumbnail.webp"
+    img_alt="project: coloring book personal project"
+    extra_string="Illustration & Drawing"
+    title_string="Simple Flowers - Product"
+    desc_string=""
+    link_href="/work/project-cbproject"
   />
       </SplideSlide>
 
