@@ -32,10 +32,10 @@
           About Me ( Michael Tran ) ✨
         </h1>
         <p class="text-xl">
-          I've always had a love for drawing and creating art—a passion that has instilled in me a genuine joy for imagining and bringing things to life. However, despite my love for the craft, I grew up in a family that wasn't supportive. Consequently, I pursued a science-based degree. Nonetheless, the calling for design persisted within me, prompting me to work twice as hard. Over time, I've come to realize that I can't balance both paths, leading me to commit fully to following my dreams and passions while I still can.
+          Hi, I'm a first-generation Vietnamese American born and raised in Salt Lake City, Utah. I like cooking, housekeeping, creative work, surfing the web, basically anything indoors I'd probably like to do it! I'm just starting in the world, trying to find my place, hoping for an opportunity.
         </p>
         <p class="text-xl mt-3">
-          Give me a chance, and I won't let you down!
+          Professionally I aim to have a career that will last for many years, preferably in the creative field or tech sector. I want to do great things and do what I love as a career!
         </p>
       </span>
 
