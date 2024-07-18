@@ -16,11 +16,16 @@
     class="flex flex-col lg:flex-row md:mx-12 lg:mx-0 2xl:mx-24 drop-shadow-xl"
   >
     <div class=" lg:w-1/2 mr-5 grid content-center w-100 my-5 m-5">
-      <img
+      <!-- <img
         class="transition border-8 border-almostblack rounded-3xl place-self-center mr-5 drop-shadow-2xl"
         src="/about/photo-of-mike-v7.webp"
         alt=""
-      />
+      /> -->
+      <video class="transition border-8 border-almostblack rounded-3xl place-self-center mr-5 drop-shadow-2xl" width="auto" height="auto" autoplay="autoplay" muted="muted">
+        <track kind="captions">
+        <source src="/about/mike-video.mp4" type="video/mp4" />
+        <source src="/about/mike-video.webm" type="video/webm" />
+      </video>
     </div>
     <div
       class="grid content-between p-1 lg:w-1/2 w-100 my-none my-auto cursor-default"
@@ -35,7 +40,7 @@
           Hi, I'm a first-generation Vietnamese American born and raised in Salt Lake City, Utah. I like cooking, housekeeping, creative work, surfing the web, basically anything indoors I'd probably like to do it! I'm just starting in the world, trying to find my place, hoping for an opportunity.
         </p>
         <p class="text-xl mt-3">
-          Professionally I aim to have a career that will last for many years, preferably in the creative field or tech sector. I want to do great things and do what I love as a career!
+          Professionally I aim to have a career that will last for many years, preferably in the creative field or the tech sector. I want to do great things and do what I love!
         </p>
       </span>
 
