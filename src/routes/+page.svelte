@@ -209,10 +209,12 @@
   >
   <div></div>
   <div class="grid content-center gap-4 xl:grid-cols-3 grid-cols-1 mx-5">
-    <InfoBoxWithIcon title="UX Research" img_src="/base/icons/human-focus-design.webp" words="I chose to specialize in UX research due to my passion for comprehending user and customer behaviors. The abundance of existing literature on UX provides a rich foundation, enabling me to craft unique and impactful solutions."/>
-    <InfoBoxWithIcon title="Web Development" img_src="/base/icons/world_wide_web.webp" words="My programming expertise centers on the World Wide Web, with a focus on fundamental languages like HTML, CSS, and JavaScript. Proficiency in these core languages provides me with the versatility to work with any web related project"/>
+    <InfoBoxWithIcon title="Learning & Research" img_src="/base/icons/human-focus-design.webp" words="I chose to specialize in UX research due to my passion for comprehending user and customer behaviors. The abundance of existing literature on UX provides a rich foundation, enabling me to craft unique and impactful solutions."/>
     
-    <InfoBoxWithIcon title="Digital Design" img_src="/base/icons/design_on_laptop.webp" words="I specialize in digital design, encompassing a variety of skills that enable me to bring graphics to life and translate visions into reality. My expertise spans across different design areas, including web design, graphic design, product design, and UI design."/>
+    
+    <InfoBoxWithIcon title="Creative Digital Design" img_src="/base/icons/design_on_laptop.webp" words="I specialize in digital design, encompassing a variety of skills that enable me to bring graphics to life and translate visions into reality. My expertise spans across different design areas, including web design, graphic design, product design, and UI design."/>
+  
+    <InfoBoxWithIcon title="Coding & Programming" img_src="/base/icons/world_wide_web.webp" words="My programming expertise centers on the World Wide Web, with a focus on fundamental languages like HTML, CSS, and JavaScript. Proficiency in these core languages provides me with the versatility to work with any web related project"/>
   </div>
 
   </div>
