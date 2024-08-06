@@ -21,7 +21,7 @@
         src="/about/photo-of-mike-v7.webp"
         alt=""
       /> -->
-      <video class="transition border-8 border-almostblack rounded-3xl place-self-center mr-5 drop-shadow-2xl" width="auto" height="auto" autoplay="autoplay" muted="muted">
+      <video class="transition border-8 border-almostblack rounded-3xl place-self-center mr-5 drop-shadow-2xl " width="auto" height="auto" autoplay="autoplay" muted="muted">
         <track kind="captions">
         <source src="/about/mike-video.mp4" type="video/mp4" />
         <source src="/about/mike-video.webm" type="video/webm" />
@@ -48,7 +48,7 @@
         <br />
         <a
           class="hover:text-appleblue underline"
-          href="https://www.linkedin.com/in/michael-tran-20462112a/">LinkedIn</a
+          href="https://www.linkedin.com/in/mikesenh/">LinkedIn</a
         >
         |
         <a
