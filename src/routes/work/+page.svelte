@@ -21,7 +21,7 @@
 
 <svelte:window bind:innerWidth />
 
-<div class="flex justify-center">
+<div class="flex justify-center mb-5">
   <span>
     <div class="flex justify-center">
       <img
@@ -40,7 +40,7 @@
 </div>
 
 <div class="">
-  <Splide
+  <!-- <Splide
     hasTrack={false}
     options={{
       type: "loop",
@@ -127,7 +127,7 @@
   />
       </SplideSlide>
 
-      <!-- <SplideSlide>
+      <SplideSlide>
         <DisplayProjectSlide
     img_src="/project/janadhi/thumbnail.webp"
     img_alt="project: janadhi web design"
@@ -136,7 +136,7 @@
     desc_string=""
     link_href="/work/project-janadhi"
   />
-      </SplideSlide> -->
+      </SplideSlide>
 
       <SplideSlide>
         <DisplayProjectSlide
@@ -162,8 +162,102 @@
 
     </SplideTrack>
     
-  </Splide>
+  </Splide> -->
 </div>
+
+<div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
+  <DisplayProjectSlide
+    img_src="/project/toys/thumbnail.webp"
+    img_alt="project: The Grace Company work: UX, UI & Web Development"
+    extra_string="Web Design"
+    title_string="IIT - Website"
+    desc_string="In this project, my main focus was to redesign the website for Incredibly Interconnectable Toys, infusing it with a fresh and captivating aesthetic. The aim was to provide an enhanced user experience, enticing visitors to explore the world of toys in a unique and engaging way. "
+    link_href="/work/project-iit"
+  />
+  <DisplayProjectSlide
+    img_src="/project/grace/thumbnail.png"
+    img_alt="project: The Grace Company work: UX, UI & Web Development"
+    extra_string="Web Development & Design"
+    title_string="Grace Company - Website"
+    desc_string="In this project, I undertook the mission to enhance and modernize The
+  Grace Company's website, aligning it with contemporary design trends.
+  By implementing a cohesive design system, the website underwent a
+  transformation that not only resulted in increased sales but also
+  positioned the company as a cutting-edge leader in the quilting
+  machine and frame industry."
+    link_href="/work/project-grace"
+    btn_string="View Case Study"
+    option_char="L"
+    is_disable="false"
+  />
+  <DisplayProjectSlide
+  img_src="/project/agawa/thumbnail.webp"
+  img_alt="agawa thumbnail - japanese restaurant website"
+  extra_string="Web Design / UI Design / Branding"
+  title_string="Agawa - Logo & Website"
+  desc_string="In this project, I am designing a visually captivating and user-friendly website for a Japanese restaurant, with a focus on expanding their customer base by accommodating both English and Japanese languages. The primary goal is to create an immersive online experience that reflects the rich cultural heritage of Japan while ensuring seamless navigation and functionality for visitors."
+  link_href="/work/project-agawa"
+  btn_string="View Design"
+  option_char="L"
+  is_disable="true"
+/>
+<DisplayProjectSlide
+img_src="/project/autosew/thumbnail.webp"
+img_alt="project: The Grace Company work: UX, UI & Web Development"
+extra_string="UX/UI Design"
+title_string="AutoSew - UX/UI "
+desc_string="In this project, I'd designed the UI of a quilting/sewing software. I was given the chance to conduct user research, delve into UX design, and ultimately visualize what the software could become."
+link_href="/work/project-autosew"
+/>
+<DisplayProjectSlide
+img_src="/project/jagrock/thumbnail.webp"
+img_alt="project: jagrock logo design"
+extra_string="Logo Design / Branding "
+title_string="Jagrock Games - Logo"
+desc_string=""
+link_href="/work/project-jagrock"
+/>
+
+<DisplayProjectSlide
+    img_src="/project/janadhi/thumbnail.webp"
+    img_alt="project: janadhi web design"
+    extra_string="Web Design & Branding*"
+    title_string="Janadhi & Company"
+    desc_string=""
+    link_href="/work/project-janadhi"
+  />
+
+  <DisplayProjectSlide
+    img_src="/project/teabean/thumbnail.webp"
+    img_alt="project: teabean package"
+    extra_string="Illustration & Graphic Design"
+    title_string="TeaBean Co - Logo & Packaging"
+    desc_string=""
+    link_href="/work/project-teabean"
+  />
+
+  <DisplayProjectSlide
+    img_src="/project/cbproject/thumbnail.webp"
+    img_alt="project: coloring book personal project"
+    extra_string="Illustration & Drawing"
+    title_string="Simple Flowers - Product"
+    desc_string=""
+    link_href="/work/project-cbproject"
+  />
+
+  <DisplayProjectSlide
+    img_src="/project/wildwood/thumbnail.webp"
+    img_alt="project: coloring book personal project"
+    extra_string="Illustration & Drawing"
+    title_string="Wildwood Mandalas Coloring Book - Product"
+    desc_string=""
+    link_href="/work/project-wildwood"
+  />
+
+</div>
+
+
+
 
 <style>
   .btn-yellow {
