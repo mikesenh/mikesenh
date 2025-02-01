@@ -254,6 +254,24 @@ link_href="/work/project-jagrock"
     link_href="/work/project-wildwood"
   />
 
+  <DisplayProjectSlide
+    img_src="/project/snap/thumbnail.webp"
+    img_alt="project: snap brochure"
+    extra_string="Graphic Design"
+    title_string="USDA SNAP - Brochure"
+    desc_string=""
+    link_href="/work/project-snap"
+  />
+
+  <DisplayProjectSlide
+    img_src="/project/eiko/thumbnail.webp"
+    img_alt="project: eiko cafe"
+    extra_string="Branding & Graphic Design"
+    title_string="Eiko Cafe Menu"
+    desc_string=""
+    link_href="/work/project-eiko"
+  />
+
 </div>
 
 
