@@ -7,6 +7,7 @@
   import WhyMeBlock from "../components/WhyMeBlock.svelte";
   import InfoBoxWithIcon from "../components/InfoBoxWithIcon.svelte";
   import Accordion6 from "../components/Accordion6.svelte";
+  import MikesenhHeader from "../components/MikesenhHeader.svelte";
   let touchMarquee = false;
   function marqueePause() {
     touchMarquee = true;
@@ -69,56 +70,8 @@
   }
 </script>
 
-<!-- bg-[url('/base/bg-transblue.png')] -->
-<div class="bg-contain pb-10">
-  <div class="mx-auto container">
-    <div class="flex justify-center">
-      <!-- <div class="flex items-center mb-4">
-    <input bind:checked={powerUp} id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-    <label for="default-checkbox" class="ml-2 text-xl font-medium text-gray-900 dark:text-gray-300">Power Up!</label>
-</div> -->
-    </div>
-    <div class="flex justify-center">
-      <button on:click={textSwap}>
-        <!-- <img on:mouseover={handleMouseOut} on:mouseout={handleMouseOver} on:keydown={onBlur} on:blur={onBlur} on:focus={onFocus} class="px-5 my-5 sm:h-48 md:h-64 hover:scale-105 transition active:scale-95 select-none" src={colour} alt=""> -->
 
-        <img
-          width="762"
-          height="256"
-          class="px-5 my-5 sm:h-48 md:h-64 hover:scale-105 transition active:scale-95 select-none"
-          src="/base/move-machines.webp"
-          alt="3 retro machines in a svg vector format"
-        />
-      </button>
-    </div>
-
-    <h1 class="text-center md:text-5xl text-3xl mt-3 font-bold select-none">
-      ‎ ‎
-      <Typewriter mode="loopOnce" cursor={false} element="span">
-        <span>
-          {headline}
-        </span>
-      </Typewriter>
-    </h1>
-
-    <p class="text-center text-xl mb-5 mt-3 select-none">
-      ‎ ‎
-      <Typewriter mode="loopOnce" cursor={false} delay={2000} element="span">
-        <span>
-          {subheading}
-        </span>
-      </Typewriter>
-    </p>
-    <div class="flex justify-center">
-      <!-- <a
-        class="text-gray-800 bg-white border-myblue border-gray-300 text-xl border-4 p-2 px-7 rounded-full border-zinc-700 hover:border-myblue hover:-translate-y-1 hover:drop-shadow-md transition"
-        href="/work"
-      >
-        View My Work</a
-      > -->
-    </div>
-  </div>
-</div>
+<MikesenhHeader/>
 
 <!-- bg-[url('/base/bg-transblue-flip.png')] -->
 <!-- <div class="my-5">
