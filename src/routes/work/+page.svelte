@@ -170,7 +170,7 @@
     img_src="/project/toys/thumbnail.webp"
     img_alt="project: The Grace Company work: UX, UI & Web Development"
     extra_string="Web Design"
-    title_string="IIT - Website"
+    title_string="Incredibly Interconnectable Toys"
     desc_string="In this project, my main focus was to redesign the website for Incredibly Interconnectable Toys, infusing it with a fresh and captivating aesthetic. The aim was to provide an enhanced user experience, enticing visitors to explore the world of toys in a unique and engaging way. "
     link_href="/work/project-iit"
   />
@@ -210,12 +210,12 @@ desc_string="In this project, I'd designed the UI of a quilting/sewing software.
 link_href="/work/project-autosew"
 />
 <DisplayProjectSlide
-img_src="/project/jagrock/thumbnail.webp"
-img_alt="project: jagrock logo design"
-extra_string="Logo Design / Branding "
-title_string="Jagrock Games - Logo"
+img_src="/project/wildwood/thumbnail.webp"
+img_alt="project: coloring book personal project"
+extra_string="Illustration & Drawing"
+title_string="Wildwood Mandalas"
 desc_string=""
-link_href="/work/project-jagrock"
+link_href="/work/project-wildwood"
 />
 
 <DisplayProjectSlide
@@ -246,13 +246,13 @@ link_href="/work/project-jagrock"
   />
 
   <DisplayProjectSlide
-    img_src="/project/wildwood/thumbnail.webp"
-    img_alt="project: coloring book personal project"
-    extra_string="Illustration & Drawing"
-    title_string="Wildwood Mandalas Coloring Book - Product"
-    desc_string=""
-    link_href="/work/project-wildwood"
-  />
+img_src="/project/jagrock/thumbnail.webp"
+img_alt="project: jagrock logo design"
+extra_string="Logo Design / Branding "
+title_string="Jagrock Games - Logo"
+desc_string=""
+link_href="/work/project-jagrock"
+/>
 
   <DisplayProjectSlide
     img_src="/project/snap/thumbnail.webp"
